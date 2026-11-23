@@ -1,0 +1,4203 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <!-- Essential Metadata & Responsive Viewport -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aazib Tariq — Founder &amp; Builder | Growth Experts</title>
+  <meta name="description" content="Official portfolio and entity home of Aazib Tariq (Muhammad Aazib Tariq) — Founder at Growth Experts, AI Builder, and Automation Engineer turning workflows into autonomous systems." />
+  <meta name="author" content="Aazib Tariq" />
+  <meta name="robots" content="index, follow" />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="canonical" href="https://aazib-tariq.github.io/" />
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:site_name" content="Aazib Tariq" />
+  <meta property="og:title" content="Aazib Tariq — Founder &amp; Builder | Growth Experts" />
+  <meta property="og:description" content="Official portfolio and entity home of Aazib Tariq (Muhammad Aazib Tariq) — Founder at Growth Experts, AI Builder, and Automation Engineer turning workflows into autonomous systems." />
+  <meta property="og:url" content="https://aazib-tariq.github.io/" />
+  <meta property="profile:first_name" content="Aazib" />
+  <meta property="profile:last_name" content="Tariq" />
+  <meta property="profile:username" content="aazib-tariq" />
+
+  <!-- Twitter / X Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aazib Tariq — Founder &amp; Builder | Growth Experts" />
+  <meta name="twitter:description" content="Founder at Growth Experts, AI Builder, and Automation Engineer turning workflows into autonomous systems." />
+
+  <!-- Complete Schema.org Entity Home (@graph: Person, Organization, WebSite, ProfilePage) -->
+  <script id="entity-jsonld" type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://aazib-tariq.github.io/#person",
+        "name": "Aazib Tariq",
+        "alternateName": "Muhammad Aazib Tariq",
+        "url": "https://aazib-tariq.github.io/",
+        "jobTitle": "Founder, AI Builder & Automation Engineer",
+        "telephone": "+923186725593",
+        "description": "Aazib Tariq (Muhammad Aazib Tariq) is the Founder of Growth Experts, an AI builder, and an automation engineer designing autonomous software systems and scalable acquisition engines.",
+        "worksFor": {
+          "@id": "https://growthexperts.vercel.app/#organization"
+        },
+        "founder": {
+          "@id": "https://growthexperts.vercel.app/#organization"
+        },
+        "knowsAbout": [
+          "Artificial Intelligence",
+          "Workflow Automation",
+          "Autonomous Systems",
+          "Lead Generation",
+          "Conversion Strategy",
+          "Next.js",
+          "TypeScript",
+          "Python"
+        ],
+        "sameAs": [
+          "https://github.com/aazib-tariq",
+          "https://www.linkedin.com/in/aazibtariq/",
+          "https://growthexperts.vercel.app/"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://growthexperts.vercel.app/#organization",
+        "name": "Growth Experts",
+        "url": "https://growthexperts.vercel.app/",
+        "founder": {
+          "@id": "https://aazib-tariq.github.io/#person"
+        },
+        "description": "Automation-first growth agency scaling businesses with AI-driven workflows, Facebook and Instagram acquisition, conversion strategy, and intelligent lead generation.",
+        "sameAs": [
+          "https://growthexperts.vercel.app/",
+          "https://github.com/aazib-tariq/growthexperts"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://aazib-tariq.github.io/#website",
+        "name": "Aazib Tariq",
+        "url": "https://aazib-tariq.github.io/",
+        "publisher": {
+          "@id": "https://aazib-tariq.github.io/#person"
+        },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://aazib-tariq.github.io/#profilepage",
+        "url": "https://aazib-tariq.github.io/",
+        "name": "Aazib Tariq — Founder & Builder | Growth Experts",
+        "isPartOf": {
+          "@id": "https://aazib-tariq.github.io/#website"
+        },
+        "mainEntity": {
+          "@id": "https://aazib-tariq.github.io/#person"
+        },
+        "about": {
+          "@id": "https://aazib-tariq.github.io/#person"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Early Theme Initialization (Obsidian Dark Default + Persisted Light Mode Parity) -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('aazib-hig-theme');
+        var theme = (saved === 'light' || saved === 'dark') ? saved : 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <!-- Crafted UI Architect Design System — Zero External Dependencies -->
+  <style>
+    /* ================================================================
+     * 1. DESIGN TOKENS — ANODIZED TITANIUM OBSIDIAN & CRISP LIGHT MODE
+     * ================================================================ */
+    :root {
+      /* Default: Anodized Obsidian Dark */
+      --bg-canvas: #050507;
+      --bg-elevated: #0D0D10;
+      --bg-surface: #111114;
+      --bg-surface-2: #16161A;
+      --bg-surface-hover: #1B1B20;
+      --bg-nav: rgba(9, 9, 11, 0.76);
+      --bg-backdrop: rgba(0, 0, 0, 0.68);
+      --bg-code: #0A0A0D;
+
+      --border-hairline: rgba(255, 255, 255, 0.09);
+      --border-subtle: rgba(255, 255, 255, 0.055);
+      --border-strong: rgba(255, 255, 255, 0.18);
+      --top-specular: rgba(255, 255, 255, 0.14);
+
+      --ink-primary: #F5F5F7;
+      --ink-secondary: #A1A1A6;
+      --ink-tertiary: #6E6E73;
+
+      /* Strict Color Discipline: Single Precision Accent + Semantic Emerald */
+      --accent: #0A84FF;
+      --accent-hover: #2E97FF;
+      --accent-ink: #FFFFFF;
+      --accent-tint: rgba(10, 132, 255, 0.13);
+      --accent-border: rgba(10, 132, 255, 0.34);
+
+      --emerald: #30D158;
+      --emerald-hover: #3BE065;
+      --emerald-ink: #041A0B;
+      --emerald-tint: rgba(48, 209, 88, 0.12);
+      --emerald-border: rgba(48, 209, 88, 0.30);
+
+      --danger: #FF453A;
+
+      /* Specular Titanium Cursor Sheen */
+      --sheen-surface: rgba(255, 255, 255, 0.055);
+      --sheen-border: rgba(255, 255, 255, 0.24);
+      --grid-line: rgba(255, 255, 255, 0.032);
+
+      /* Shadows */
+      --shadow-card: 0 1px 0 0 rgba(255, 255, 255, 0.06) inset, 0 12px 32px rgba(0, 0, 0, 0.45);
+      --shadow-sheet: 0 1px 0 0 rgba(255, 255, 255, 0.10) inset, 0 32px 96px rgba(0, 0, 0, 0.82);
+
+      /* Typography */
+      --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", "Segoe UI", Roboto, system-ui, sans-serif;
+      --font-mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+      /* 4px / 8px Spacing Scale */
+      --s-1: 4px;
+      --s-2: 8px;
+      --s-3: 12px;
+      --s-4: 16px;
+      --s-5: 20px;
+      --s-6: 24px;
+      --s-8: 32px;
+      --s-10: 40px;
+      --s-12: 48px;
+      --s-16: 64px;
+      --s-20: 80px;
+      --s-24: 96px;
+
+      /* Concentric Radii (outer = inner + padding) */
+      --r-xs: 6px;
+      --r-sm: 10px;
+      --r-md: 14px;
+      --r-lg: 20px;
+      --r-xl: 24px;
+      --r-pill: 9999px;
+
+      /* Motion Curves */
+      --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+      --dur-fast: 160ms;
+      --dur-base: 260ms;
+      --dur-slow: 420ms;
+
+      --max-w: 1160px;
+      --nav-h: 64px;
+    }
+
+    /* Crisp Light Mode Parity */
+    html[data-theme="light"] {
+      --bg-canvas: #FFFFFF;
+      --bg-elevated: #F5F5F7;
+      --bg-surface: #FFFFFF;
+      --bg-surface-2: #F5F5F7;
+      --bg-surface-hover: #ECECF0;
+      --bg-nav: rgba(255, 255, 255, 0.80);
+      --bg-backdrop: rgba(15, 15, 20, 0.38);
+      --bg-code: #F5F5F7;
+
+      --border-hairline: rgba(0, 0, 0, 0.09);
+      --border-subtle: rgba(0, 0, 0, 0.055);
+      --border-strong: rgba(0, 0, 0, 0.18);
+      --top-specular: rgba(255, 255, 255, 0.90);
+
+      --ink-primary: #1D1D1F;
+      --ink-secondary: #58585E;
+      --ink-tertiary: #86868B;
+
+      --accent: #0071E3;
+      --accent-hover: #0077ED;
+      --accent-ink: #FFFFFF;
+      --accent-tint: rgba(0, 113, 227, 0.09);
+      --accent-border: rgba(0, 113, 227, 0.28);
+
+      --emerald: #1E8E3E;
+      --emerald-hover: #177934;
+      --emerald-ink: #FFFFFF;
+      --emerald-tint: rgba(30, 142, 62, 0.10);
+      --emerald-border: rgba(30, 142, 62, 0.26);
+
+      --danger: #D93025;
+
+      --sheen-surface: rgba(0, 0, 0, 0.028);
+      --sheen-border: rgba(0, 0, 0, 0.22);
+      --grid-line: rgba(0, 0, 0, 0.042);
+
+      --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.04), 0 12px 32px rgba(0, 0, 0, 0.05);
+      --shadow-sheet: 0 28px 80px rgba(0, 0, 0, 0.18);
+    }
+
+    /* ================================================================
+     * 2. BASE RESET & ACCESSIBILITY PRIMITIVES
+     * ================================================================ */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.55;
+      color: var(--ink-primary);
+      background-color: var(--bg-canvas);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+      transition: background-color var(--dur-base) var(--ease-out), color var(--dur-base) var(--ease-out);
+    }
+
+    h1, h2, h3, h4, p, ul, ol, dl, dd, pre {
+      margin: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button, input, textarea {
+      font: inherit;
+      color: inherit;
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -120px;
+      left: var(--s-4);
+      z-index: 999;
+      padding: var(--s-3) var(--s-4);
+      border-radius: var(--r-sm);
+      background: var(--accent);
+      color: var(--accent-ink);
+      font-size: 0.875rem;
+      font-weight: 600;
+      transition: top var(--dur-fast) var(--ease-out);
+    }
+    .skip-link:focus {
+      top: var(--s-3);
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .mono {
+      font-family: var(--font-mono);
+    }
+
+    .tabular {
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ================================================================
+     * 3. ARCHITECTURAL PRECISION LAYOUT & SPECULAR CARD SYSTEM
+     * ================================================================ */
+    .container {
+      width: 100%;
+      max-width: var(--max-w);
+      margin-inline: auto;
+      padding-inline: var(--s-5);
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        padding-inline: var(--s-8);
+      }
+    }
+
+    .section {
+      position: relative;
+      padding-block: clamp(64px, 8vw, 108px);
+      scroll-margin-top: calc(var(--nav-h) + var(--s-6));
+    }
+
+    .section--bordered {
+      border-top: 1px solid var(--border-hairline);
+    }
+
+    /* Machined Titanium Specular Surface */
+    .titanium-card {
+      position: relative;
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-hairline);
+      border-radius: var(--r-lg);
+      box-shadow: var(--shadow-card);
+      overflow: hidden;
+      transition:
+        border-color var(--dur-base) var(--ease-out),
+        transform var(--dur-base) var(--ease-out),
+        background-color var(--dur-base) var(--ease-out);
+    }
+
+    /* Top machined edge reflection */
+    .titanium-card::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 5%, var(--top-specular) 50%, transparent 95%);
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    /* Cursor-tracked restrained specular sheen */
+    .titanium-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(
+        420px circle at var(--mx, -400px) var(--my, -400px),
+        var(--sheen-surface),
+        transparent 62%
+      );
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--dur-base) var(--ease-out);
+      z-index: 1;
+    }
+
+    .titanium-card:hover::after {
+      opacity: 1;
+    }
+
+    .titanium-card:hover {
+      border-color: var(--border-strong);
+    }
+
+    .titanium-card > * {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Precision Architectural Grid Backdrop strictly masked behind Hero */
+    .hero-backdrop-grid {
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 680px;
+      background-image:
+        linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+      background-size: 64px 64px;
+      -webkit-mask-image: radial-gradient(ellipse 85% 75% at 50% 0%, #000 18%, transparent 80%);
+      mask-image: radial-gradient(ellipse 85% 75% at 50% 0%, #000 18%, transparent 80%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Scroll Reveal Animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 520ms var(--ease-out), transform 520ms var(--ease-out);
+    }
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ================================================================
+     * 4. TYPOGRAPHY HIERARCHY
+     * ================================================================ */
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--s-2);
+      font-size: 0.8125rem;
+      font-weight: 500;
+      letter-spacing: -0.005em;
+      color: var(--ink-secondary);
+    }
+
+    .eyebrow-caps {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--ink-tertiary);
+    }
+
+    .display-hero {
+      font-size: clamp(3.1rem, 7.5vw, 6.2rem);
+      font-weight: 700;
+      line-height: 1.02;
+      letter-spacing: -0.045em;
+      color: var(--ink-primary);
+    }
+
+    .display-hero-muted {
+      display: block;
+      margin-top: var(--s-2);
+      color: var(--ink-secondary);
+      font-weight: 600;
+      font-size: clamp(1.75rem, 4.1vw, 3.35rem);
+      line-height: 1.08;
+      letter-spacing: -0.035em;
+    }
+
+    .section-title {
+      font-size: clamp(1.875rem, 3.8vw, 2.75rem);
+      font-weight: 600;
+      line-height: 1.1;
+      letter-spacing: -0.032em;
+      color: var(--ink-primary);
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 1.28;
+      letter-spacing: -0.02em;
+      color: var(--ink-primary);
+    }
+
+    .lead-copy {
+      font-size: clamp(1.0625rem, 1.6vw, 1.2rem);
+      line-height: 1.55;
+      letter-spacing: -0.01em;
+      color: var(--ink-secondary);
+    }
+
+    .body-copy {
+      font-size: 0.96875rem;
+      line-height: 1.6;
+      color: var(--ink-secondary);
+    }
+
+    .meta-copy {
+      font-size: 0.8125rem;
+      line-height: 1.45;
+      color: var(--ink-tertiary);
+    }
+
+    /* ================================================================
+     * 5. BUTTONS, CONTROLS & KEYCAP HINTS
+     * ================================================================ */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--s-2);
+      min-height: 44px;
+      padding: 0 var(--s-5);
+      border-radius: var(--r-pill);
+      border: 1px solid transparent;
+      font-size: 0.9375rem;
+      font-weight: 500;
+      line-height: 1;
+      cursor: pointer;
+      white-space: nowrap;
+      transition:
+        background-color var(--dur-fast) var(--ease-out),
+        border-color var(--dur-fast) var(--ease-out),
+        color var(--dur-fast) var(--ease-out),
+        transform var(--dur-fast) var(--ease-out);
+    }
+    .btn:active:not(:disabled):not([aria-disabled="true"]) {
+      transform: scale(0.98);
+    }
+    .btn:disabled,
+    .btn[aria-disabled="true"] {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    .btn-emerald {
+      background-color: var(--emerald);
+      color: var(--emerald-ink);
+      font-weight: 600;
+    }
+    .btn-emerald:hover:not(:disabled):not([aria-disabled="true"]) {
+      background-color: var(--emerald-hover);
+    }
+
+    .btn-accent {
+      background-color: var(--accent);
+      color: var(--accent-ink);
+      font-weight: 500;
+    }
+    .btn-accent:hover:not(:disabled):not([aria-disabled="true"]) {
+      background-color: var(--accent-hover);
+    }
+
+    .btn-secondary {
+      background-color: var(--bg-surface-2);
+      border-color: var(--border-hairline);
+      color: var(--ink-primary);
+    }
+    .btn-secondary:hover:not(:disabled):not([aria-disabled="true"]) {
+      background-color: var(--bg-surface-hover);
+      border-color: var(--border-strong);
+    }
+
+    .btn-ghost {
+      background-color: transparent;
+      border-color: transparent;
+      color: var(--ink-secondary);
+      padding-inline: var(--s-3);
+    }
+    .btn-ghost:hover:not(:disabled) {
+      color: var(--ink-primary);
+      background-color: var(--bg-surface-2);
+    }
+
+    .btn-sm {
+      min-height: 44px;
+      padding: 0 var(--s-4);
+      font-size: 0.875rem;
+    }
+
+    .icon-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border-radius: var(--r-pill);
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-surface-2);
+      color: var(--ink-primary);
+      cursor: pointer;
+      transition: background-color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out);
+    }
+    .icon-btn:hover {
+      background-color: var(--bg-surface-hover);
+      border-color: var(--border-strong);
+    }
+
+    .kbd {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 24px;
+      height: 22px;
+      padding: 0 6px;
+      border-radius: 6px;
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-surface-2);
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 500;
+      color: var(--ink-secondary);
+      line-height: 1;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: var(--emerald);
+      box-shadow: 0 0 0 3px var(--emerald-tint);
+      flex-shrink: 0;
+    }
+
+    /* ================================================================
+     * 6. FLOATING FROSTED-GLASS NAVIGATION + SCROLL PROGRESS HAIRLINE
+     * ================================================================ */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 120;
+      background-color: var(--bg-nav);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      backdrop-filter: saturate(180%) blur(20px);
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .scroll-progress-track {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -1px;
+      height: 1px;
+      background: transparent;
+      pointer-events: none;
+    }
+
+    .scroll-progress-bar {
+      width: 100%;
+      height: 100%;
+      background-color: var(--accent);
+      transform-origin: left center;
+      transform: scaleX(0);
+      will-change: transform;
+    }
+
+    .nav-inner {
+      height: var(--nav-h);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-4);
+    }
+
+    /* Plain Crisp Brand Mark (NO "AI" suffix, NO icon clutter) */
+    .brand-mark {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      font-size: 0.96875rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--ink-primary);
+      white-space: nowrap;
+      transition: opacity var(--dur-fast) var(--ease-out);
+    }
+    .brand-mark:hover {
+      opacity: 0.75;
+    }
+
+    .nav-links {
+      display: none;
+      align-items: center;
+      gap: var(--s-1);
+    }
+
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 0 var(--s-3);
+      border-radius: var(--r-sm);
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--ink-secondary);
+      transition: color var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out);
+    }
+    .nav-link:hover,
+    .nav-link[aria-current="true"] {
+      color: var(--ink-primary);
+      background-color: var(--bg-surface-2);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--s-2);
+    }
+
+    .cmd-trigger {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--s-2);
+      min-height: 44px;
+      padding: 0 var(--s-3);
+      border-radius: var(--r-pill);
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-surface-2);
+      color: var(--ink-secondary);
+      font-size: 0.8125rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: border-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out);
+    }
+    .cmd-trigger:hover {
+      color: var(--ink-primary);
+      border-color: var(--border-strong);
+      background-color: var(--bg-surface-hover);
+    }
+
+    .nav-wa-btn {
+      display: none;
+    }
+
+    .mobile-menu-btn {
+      display: inline-flex;
+    }
+
+    .mobile-drawer {
+      display: none;
+      border-top: 1px solid var(--border-hairline);
+      background-color: var(--bg-elevated);
+      padding: var(--s-3) var(--s-5) var(--s-5);
+    }
+    .mobile-drawer.is-open {
+      display: block;
+    }
+    .mobile-drawer-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: var(--s-1);
+    }
+    .mobile-drawer-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 44px;
+      padding: 0 var(--s-3);
+      border-radius: var(--r-sm);
+      font-size: 0.96875rem;
+      font-weight: 500;
+      color: var(--ink-primary);
+    }
+    .mobile-drawer-link:hover {
+      background-color: var(--bg-surface-2);
+    }
+
+    /* Theme icon swap */
+    .icon-sun { display: block; }
+    .icon-moon { display: none; }
+    html[data-theme="light"] .icon-sun { display: none; }
+    html[data-theme="light"] .icon-moon { display: block; }
+
+    /* ================================================================
+     * 7. APPLE KEYNOTE HERO + MACOS SEQUOIA SYSTEM CONSOLE
+     * ================================================================ */
+    .hero-section {
+      position: relative;
+      padding-top: clamp(44px, 6.5vw, 80px);
+      padding-bottom: clamp(56px, 8vw, 96px);
+      overflow: hidden;
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 2;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--s-10);
+      align-items: start;
+    }
+
+    .hero-copy {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .hero-eyebrow-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--s-2);
+      padding: 6px 14px;
+      border-radius: var(--r-pill);
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-surface);
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: var(--ink-secondary);
+      margin-bottom: var(--s-6);
+    }
+
+    .hero-headline {
+      margin-bottom: var(--s-6);
+      max-width: 18ch;
+    }
+
+    .hero-bio {
+      max-width: 560px;
+      margin-bottom: var(--s-8);
+    }
+
+    .hero-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--s-3);
+      margin-bottom: var(--s-5);
+    }
+
+    .hero-hint-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--s-2);
+      min-height: 44px;
+      padding: 0 var(--s-2);
+      border: none;
+      background: transparent;
+      color: var(--ink-tertiary);
+      font-size: 0.8125rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: color var(--dur-fast) var(--ease-out);
+    }
+    .hero-hint-btn:hover {
+      color: var(--ink-primary);
+    }
+
+    /* Interactive macOS Sequoia Precision Console Card */
+    .console-card {
+      width: 100%;
+    }
+
+    .console-chrome {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-3);
+      padding: var(--s-3) var(--s-5);
+      border-bottom: 1px solid var(--border-hairline);
+      background-color: var(--bg-elevated);
+    }
+
+    .window-dots {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .window-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: var(--border-strong);
+    }
+
+    .console-path {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--ink-tertiary);
+      letter-spacing: 0.01em;
+    }
+
+    .console-tabs-bar {
+      padding: var(--s-3) var(--s-5);
+      border-bottom: 1px solid var(--border-subtle);
+      background-color: var(--bg-surface);
+    }
+
+    .segmented {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px;
+      padding: 4px;
+      border-radius: var(--r-md);
+      background-color: var(--bg-elevated);
+      border: 1px solid var(--border-hairline);
+    }
+
+    .segmented-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--s-2);
+      min-height: 40px;
+      padding: 0 var(--s-3);
+      border-radius: var(--r-sm);
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--ink-secondary);
+      font-size: 0.8125rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition:
+        background-color var(--dur-fast) var(--ease-out),
+        color var(--dur-fast) var(--ease-out),
+        border-color var(--dur-fast) var(--ease-out);
+    }
+    .segmented-btn:hover:not([aria-selected="true"]) {
+      color: var(--ink-primary);
+    }
+    .segmented-btn[aria-selected="true"] {
+      background-color: var(--bg-surface-2);
+      color: var(--ink-primary);
+      border-color: var(--border-hairline);
+    }
+
+    .console-body {
+      padding: var(--s-5);
+      min-height: 332px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .console-panel[hidden] {
+      display: none;
+    }
+
+    /* Tab 1: Identity Telemetry */
+    .telemetry-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .telemetry-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-2);
+      padding-block: 11px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .telemetry-row:last-child {
+      border-bottom: none;
+    }
+
+    .telemetry-key {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--ink-tertiary);
+    }
+
+    .telemetry-val {
+      font-family: var(--font-mono);
+      font-size: 0.8125rem;
+      color: var(--ink-primary);
+      text-align: right;
+    }
+
+    .telemetry-link {
+      font-family: var(--font-mono);
+      font-size: 0.8125rem;
+      color: var(--accent);
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .telemetry-link:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    /* Tab 2: Interactive Live Architecture SVG Schematic */
+    .arch-svg-wrap {
+      border-radius: var(--r-md);
+      border: 1px solid var(--border-subtle);
+      background-color: var(--bg-code);
+      padding: var(--s-4);
+      margin-bottom: var(--s-4);
+    }
+
+    .arch-svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .arch-node-btn {
+      cursor: pointer;
+    }
+    .arch-node-rect {
+      fill: var(--bg-surface-2);
+      stroke: var(--border-strong);
+      stroke-width: 1.2;
+      transition: stroke var(--dur-fast) var(--ease-out), fill var(--dur-fast) var(--ease-out);
+    }
+    .arch-node-btn:hover .arch-node-rect,
+    .arch-node-btn.is-active .arch-node-rect {
+      stroke: var(--accent);
+      fill: var(--accent-tint);
+    }
+    .arch-node-btn:focus-visible .arch-node-rect {
+      stroke: var(--accent);
+      stroke-width: 2;
+    }
+
+    .arch-inspector {
+      padding: var(--s-3) var(--s-4);
+      border-radius: var(--r-sm);
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-elevated);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .arch-inspector-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-2);
+    }
+
+    .arch-inspector-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--ink-primary);
+    }
+
+    .arch-inspector-tag {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--accent);
+    }
+
+    /* Tab 3: Core Stack Matrix */
+    .stack-matrix {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--s-3);
+    }
+
+    .stack-cell {
+      padding: var(--s-3) var(--s-4);
+      border-radius: var(--r-sm);
+      border: 1px solid var(--border-subtle);
+      background-color: var(--bg-elevated);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .stack-cell-name {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--ink-primary);
+    }
+
+    .stack-cell-role {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--ink-tertiary);
+    }
+
+    .console-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-3);
+      padding: var(--s-3) var(--s-5);
+      border-top: 1px solid var(--border-subtle);
+      background-color: var(--bg-elevated);
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--ink-tertiary);
+    }
+
+    /* ================================================================
+     * 8. INTERACTIVE AUTONOMOUS WORKFLOW SIMULATOR ("SYSTEMS IN MOTION")
+     * ================================================================ */
+    .section-head {
+      display: flex;
+      flex-direction: column;
+      gap: var(--s-4);
+      margin-bottom: var(--s-8);
+    }
+
+    .section-head-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: var(--s-5);
+    }
+
+    .sim-card {
+      padding: var(--s-6);
+    }
+
+    .sim-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-4);
+      padding-bottom: var(--s-5);
+      border-bottom: 1px solid var(--border-hairline);
+      margin-bottom: var(--s-6);
+    }
+
+    .sim-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--s-2);
+    }
+
+    /* 4-Stage Pipeline Grid */
+    .pipeline-stages {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--s-4);
+      margin-bottom: var(--s-6);
+    }
+
+    .stage-card {
+      position: relative;
+      padding: var(--s-5);
+      border-radius: var(--r-md);
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-elevated);
+      display: flex;
+      flex-direction: column;
+      gap: var(--s-3);
+      transition:
+        border-color var(--dur-base) var(--ease-out),
+        background-color var(--dur-base) var(--ease-out),
+        transform var(--dur-base) var(--ease-out);
+    }
+
+    .stage-card.is-running {
+      border-color: var(--accent);
+      background-color: var(--accent-tint);
+      transform: translateY(-2px);
+    }
+
+    .stage-card.is-done {
+      border-color: var(--emerald-border);
+      background-color: var(--bg-surface-2);
+    }
+
+    .stage-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-2);
+    }
+
+    .stage-icon-box {
+      width: 36px;
+      height: 36px;
+      border-radius: var(--r-sm);
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-surface);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ink-secondary);
+      transition: color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out);
+    }
+
+    .stage-card.is-running .stage-icon-box {
+      color: var(--accent);
+      border-color: var(--accent-border);
+    }
+
+    .stage-card.is-done .stage-icon-box {
+      color: var(--emerald);
+      border-color: var(--emerald-border);
+    }
+
+    .stage-ms {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--ink-tertiary);
+    }
+    .stage-card.is-running .stage-ms {
+      color: var(--accent);
+    }
+    .stage-card.is-done .stage-ms {
+      color: var(--emerald);
+    }
+
+    .stage-step-label {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--ink-tertiary);
+    }
+
+    .stage-title {
+      font-size: 0.96875rem;
+      font-weight: 600;
+      color: var(--ink-primary);
+      line-height: 1.3;
+    }
+
+    .stage-desc {
+      font-size: 0.84375rem;
+      line-height: 1.45;
+      color: var(--ink-secondary);
+    }
+
+    /* Progress Bar inside Simulator */
+    .sim-progress-rail {
+      height: 2px;
+      border-radius: var(--r-pill);
+      background-color: var(--border-hairline);
+      overflow: hidden;
+      margin-bottom: var(--s-5);
+    }
+
+    .sim-progress-fill {
+      height: 100%;
+      width: 0%;
+      background-color: var(--accent);
+      transition: width 320ms var(--ease-out), background-color 220ms var(--ease-out);
+    }
+    .sim-progress-fill.is-complete {
+      background-color: var(--emerald);
+    }
+
+    /* Monochrome Execution Log Stream */
+    .sim-log-box {
+      border-radius: var(--r-md);
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-code);
+      overflow: hidden;
+    }
+
+    .sim-log-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-2);
+      padding: var(--s-3) var(--s-4);
+      border-bottom: 1px solid var(--border-subtle);
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--ink-tertiary);
+    }
+
+    .sim-log-stream {
+      padding: var(--s-4);
+      font-family: var(--font-mono);
+      font-size: 0.8125rem;
+      line-height: 1.65;
+      min-height: 124px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .log-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--s-3);
+      color: var(--ink-secondary);
+    }
+
+    .log-ts {
+      color: var(--ink-tertiary);
+      min-width: 64px;
+    }
+
+    .log-tag {
+      color: var(--accent);
+      min-width: 78px;
+    }
+
+    .log-tag--ok {
+      color: var(--emerald);
+    }
+
+    /* ================================================================
+     * 9. SELECTED WORK — ARCHITECTURAL SHOWCASE CARDS
+     * ================================================================ */
+    .work-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--s-6);
+    }
+
+    .project-card {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .project-card[hidden] {
+      display: none;
+    }
+
+    .project-card:hover {
+      transform: translateY(-2px);
+    }
+
+    .project-schematic-strip {
+      position: relative;
+      height: 148px;
+      border-bottom: 1px solid var(--border-hairline);
+      background-color: var(--bg-code);
+      padding: var(--s-4) var(--s-5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .project-schematic-svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+      transition: transform var(--dur-slow) var(--ease-out);
+    }
+
+    .project-card:hover .project-schematic-svg {
+      transform: scale(1.02);
+    }
+
+    .project-body {
+      padding: var(--s-6);
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      gap: var(--s-4);
+    }
+
+    .project-meta-top {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-2);
+    }
+
+    .project-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--ink-tertiary);
+    }
+
+    .project-flagship-tag {
+      padding: 3px 9px;
+      border-radius: var(--r-pill);
+      border: 1px solid var(--accent-border);
+      background-color: var(--accent-tint);
+      color: var(--accent);
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 500;
+    }
+
+    .project-tech-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--s-2);
+      margin-top: auto;
+      padding-top: var(--s-2);
+    }
+
+    .tech-pill {
+      padding: 4px 10px;
+      border-radius: var(--r-xs);
+      border: 1px solid var(--border-subtle);
+      background-color: var(--bg-elevated);
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--ink-secondary);
+    }
+
+    .project-footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-3);
+      padding: var(--s-4) var(--s-6);
+      border-top: 1px solid var(--border-subtle);
+      background-color: var(--bg-elevated);
+    }
+
+    .project-ext-links {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--s-3);
+    }
+
+    .text-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      min-height: 44px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--accent);
+      transition: color var(--dur-fast) var(--ease-out);
+    }
+    .text-link:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .muted-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      min-height: 44px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--ink-secondary);
+      transition: color var(--dur-fast) var(--ease-out);
+    }
+    .muted-link:hover {
+      color: var(--ink-primary);
+    }
+
+    /* ================================================================
+     * 10. GROWTH EXPERTS — FLAGSHIP VENTURE SPOTLIGHT BAND
+     * ================================================================ */
+    .venture-band {
+      padding: clamp(28px, 4.5vw, 48px);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--s-8);
+    }
+
+    .venture-pillars {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--s-4);
+      border-top: 1px solid var(--border-hairline);
+      padding-top: var(--s-6);
+    }
+
+    .pillar-item {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .pillar-num {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--accent);
+    }
+
+    .pillar-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--ink-primary);
+    }
+
+    /* ================================================================
+     * 11. VERIFIED ENTITY GRAPH & JSON-LD INSPECTOR
+     * ================================================================ */
+    .entity-card {
+      padding: var(--s-6);
+      display: flex;
+      flex-direction: column;
+      gap: var(--s-6);
+    }
+
+    .entity-nodes-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--s-3);
+    }
+
+    .entity-node {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-3);
+      min-height: 60px;
+      padding: var(--s-3) var(--s-4);
+      border-radius: var(--r-md);
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-elevated);
+      transition: border-color var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out);
+    }
+    .entity-node:hover {
+      border-color: var(--border-strong);
+      background-color: var(--bg-surface-2);
+    }
+
+    .entity-node-label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--ink-tertiary);
+    }
+
+    .entity-node-url {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: 0.84375rem;
+      color: var(--ink-primary);
+      word-break: break-all;
+    }
+
+    .entity-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--s-3);
+    }
+
+    .schema-drawer {
+      border-radius: var(--r-md);
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-code);
+      overflow: hidden;
+    }
+
+    .schema-drawer[hidden] {
+      display: none;
+    }
+
+    .schema-code {
+      padding: var(--s-5);
+      overflow-x: auto;
+      font-family: var(--font-mono);
+      font-size: 0.78125rem;
+      line-height: 1.65;
+      color: var(--ink-secondary);
+      max-height: 360px;
+    }
+
+    /* ================================================================
+     * 12. WHATSAPP DIRECT STUDIO
+     * ================================================================ */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--s-6);
+      align-items: start;
+    }
+
+    .contact-info-card {
+      padding: var(--s-6);
+      display: flex;
+      flex-direction: column;
+      gap: var(--s-5);
+    }
+
+    .direct-number-box {
+      padding: var(--s-4);
+      border-radius: var(--r-md);
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-elevated);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-3);
+    }
+
+    .direct-number-val {
+      font-family: var(--font-mono);
+      font-size: 1.0625rem;
+      font-weight: 600;
+      color: var(--ink-primary);
+    }
+
+    .quick-channels {
+      display: flex;
+      flex-direction: column;
+      border-top: 1px solid var(--border-hairline);
+    }
+
+    .channel-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 48px;
+      border-bottom: 1px solid var(--border-subtle);
+      font-size: 0.9375rem;
+      color: var(--ink-secondary);
+      transition: color var(--dur-fast) var(--ease-out);
+    }
+    .channel-row:hover {
+      color: var(--ink-primary);
+    }
+
+    /* Composer Card */
+    .composer-card {
+      padding: var(--s-6);
+      display: flex;
+      flex-direction: column;
+      gap: var(--s-5);
+    }
+
+    .field-label {
+      display: block;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--ink-primary);
+      margin-bottom: var(--s-2);
+    }
+
+    .topic-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--s-2);
+    }
+
+    .topic-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 var(--s-4);
+      border-radius: var(--r-pill);
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-elevated);
+      color: var(--ink-secondary);
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition:
+        background-color var(--dur-fast) var(--ease-out),
+        border-color var(--dur-fast) var(--ease-out),
+        color var(--dur-fast) var(--ease-out);
+    }
+    .topic-pill:hover {
+      color: var(--ink-primary);
+      border-color: var(--border-strong);
+    }
+    .topic-pill[aria-checked="true"] {
+      background-color: var(--emerald-tint);
+      border-color: var(--emerald-border);
+      color: var(--emerald);
+    }
+
+    .composer-textarea {
+      width: 100%;
+      min-height: 132px;
+      padding: var(--s-4);
+      border-radius: var(--r-md);
+      border: 1px solid var(--border-hairline);
+      background-color: var(--bg-elevated);
+      color: var(--ink-primary);
+      font-size: 0.96875rem;
+      line-height: 1.55;
+      resize: vertical;
+      transition: border-color var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) var(--ease-out);
+    }
+    .composer-textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-tint);
+    }
+    .composer-textarea[aria-invalid="true"] {
+      border-color: var(--danger);
+    }
+
+    .composer-meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-2);
+      margin-top: var(--s-2);
+    }
+
+    .composer-helper {
+      font-size: 0.8125rem;
+      color: var(--ink-tertiary);
+    }
+    .composer-helper.is-error {
+      color: var(--danger);
+      font-weight: 500;
+    }
+
+    .composer-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--s-3);
+    }
+
+    /* ================================================================
+     * 13. HIG SHEET MODAL (PROJECT ARCHITECTURE INSPECTOR)
+     * ================================================================ */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 300;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: var(--s-4);
+      background-color: var(--bg-backdrop);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      backdrop-filter: saturate(180%) blur(20px);
+    }
+    .modal-overlay.is-open {
+      display: flex;
+    }
+
+    .sheet-dialog {
+      width: 100%;
+      max-width: 680px;
+      max-height: calc(100vh - 32px);
+      overflow-y: auto;
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--r-xl);
+      box-shadow: var(--shadow-sheet);
+      animation: modalIn 220ms var(--ease-out);
+    }
+
+    @keyframes modalIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.985);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    .sheet-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: var(--s-4);
+      padding: var(--s-6);
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .sheet-schematic {
+      padding: var(--s-5) var(--s-6);
+      border-bottom: 1px solid var(--border-hairline);
+      background-color: var(--bg-code);
+      height: 176px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .sheet-body {
+      padding: var(--s-6);
+      display: flex;
+      flex-direction: column;
+      gap: var(--s-5);
+    }
+
+    .sheet-section-label {
+      display: block;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-tertiary);
+      margin-bottom: 6px;
+    }
+
+    .sheet-cap-list {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--s-2);
+    }
+
+    .sheet-cap-item {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--s-2);
+      font-size: 0.9375rem;
+      color: var(--ink-secondary);
+    }
+
+    .sheet-footer {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-3);
+      padding: var(--s-5) var(--s-6);
+      border-top: 1px solid var(--border-hairline);
+      background-color: var(--bg-elevated);
+    }
+
+    /* ================================================================
+     * 14. SPOTLIGHT / RAYCAST COMMAND PALETTE (⌘K)
+     * ================================================================ */
+    .cmd-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 400;
+      display: none;
+      align-items: flex-start;
+      justify-content: center;
+      padding: clamp(48px, 12vh, 120px) var(--s-4) var(--s-4);
+      background-color: var(--bg-backdrop);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      backdrop-filter: saturate(180%) blur(20px);
+    }
+    .cmd-overlay.is-open {
+      display: flex;
+    }
+
+    .cmd-dialog {
+      width: 100%;
+      max-width: 580px;
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-strong);
+      border-radius: var(--r-lg);
+      box-shadow: var(--shadow-sheet);
+      overflow: hidden;
+      animation: modalIn 180ms var(--ease-out);
+    }
+
+    .cmd-search-bar {
+      display: flex;
+      align-items: center;
+      gap: var(--s-3);
+      padding: var(--s-4) var(--s-5);
+      border-bottom: 1px solid var(--border-hairline);
+    }
+
+    .cmd-input {
+      flex: 1;
+      border: none;
+      background: transparent;
+      color: var(--ink-primary);
+      font-size: 1rem;
+      outline: none;
+    }
+    .cmd-input::placeholder {
+      color: var(--ink-tertiary);
+    }
+
+    .cmd-list {
+      max-height: 360px;
+      overflow-y: auto;
+      padding: var(--s-2);
+      list-style: none;
+    }
+
+    .cmd-group-label {
+      padding: var(--s-2) var(--s-3) 4px;
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--ink-tertiary);
+    }
+
+    .cmd-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-3);
+      width: 100%;
+      min-height: 44px;
+      padding: var(--s-2) var(--s-3);
+      border-radius: var(--r-sm);
+      border: 1px solid transparent;
+      background: transparent;
+      text-align: left;
+      cursor: pointer;
+      color: var(--ink-primary);
+      transition: background-color 120ms var(--ease-out);
+    }
+
+    .cmd-item[aria-selected="true"],
+    .cmd-item:hover {
+      background-color: var(--bg-surface-2);
+      border-color: var(--border-hairline);
+    }
+
+    .cmd-item-left {
+      display: flex;
+      align-items: center;
+      gap: var(--s-3);
+      min-width: 0;
+    }
+
+    .cmd-item-title {
+      font-size: 0.90625rem;
+      font-weight: 500;
+      color: var(--ink-primary);
+    }
+
+    .cmd-item-sub {
+      font-size: 0.78125rem;
+      color: var(--ink-tertiary);
+      margin-left: var(--s-2);
+    }
+
+    .cmd-empty {
+      padding: var(--s-8) var(--s-4);
+      text-align: center;
+      color: var(--ink-tertiary);
+      font-size: 0.9rem;
+    }
+
+    .cmd-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--s-3);
+      padding: var(--s-3) var(--s-5);
+      border-top: 1px solid var(--border-hairline);
+      background-color: var(--bg-elevated);
+      font-size: 0.75rem;
+      color: var(--ink-tertiary);
+    }
+
+    .cmd-hints {
+      display: flex;
+      align-items: center;
+      gap: var(--s-3);
+    }
+
+    /* Non-intrusive Toast Notification (Zero alert() calls) */
+    .toast-pill {
+      position: fixed;
+      left: 50%;
+      bottom: var(--s-6);
+      z-index: 500;
+      transform: translate(-50%, 16px);
+      opacity: 0;
+      pointer-events: none;
+      display: inline-flex;
+      align-items: center;
+      gap: var(--s-2);
+      padding: 10px 16px;
+      border-radius: var(--r-pill);
+      border: 1px solid var(--border-strong);
+      background-color: var(--bg-surface-2);
+      color: var(--ink-primary);
+      font-size: 0.875rem;
+      font-weight: 500;
+      box-shadow: var(--shadow-card);
+      transition: opacity 200ms var(--ease-out), transform 200ms var(--ease-out);
+    }
+    .toast-pill.is-visible {
+      opacity: 1;
+      transform: translate(-50%, 0);
+    }
+
+    /* ================================================================
+     * 15. FOOTER
+     * ================================================================ */
+    .site-footer {
+      border-top: 1px solid var(--border-hairline);
+      padding-block: var(--s-8);
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-direction: column;
+      gap: var(--s-4);
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: var(--s-4);
+    }
+
+    /* ================================================================
+     * 16. RESPONSIVE BREAKPOINTS (12-COLUMN ASYMMETRIC EDITORIAL)
+     * ================================================================ */
+    @media (min-width: 768px) {
+      .nav-links {
+        display: flex;
+      }
+      .nav-wa-btn {
+        display: inline-flex;
+      }
+      .mobile-menu-btn {
+        display: none;
+      }
+      .mobile-drawer {
+        display: none !important;
+      }
+      .pipeline-stages {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .work-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .venture-pillars {
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--s-6);
+      }
+      .entity-nodes-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .contact-grid {
+        grid-template-columns: 5fr 7fr;
+      }
+      .footer-inner {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    @media (min-width: 1040px) {
+      .hero-grid {
+        grid-template-columns: 7fr 5fr;
+        gap: var(--s-10);
+        align-items: center;
+      }
+      .pipeline-stages {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    /* Reduced Motion Accessibility */
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+      .reveal {
+        opacity: 1 !important;
+        transform: none !important;
+      }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body id="top">
+  <!-- Keyboard Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ==================== 1. FROSTED GLASS NAVIGATION ==================== -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <!-- Plain Crisp Brand Mark — NO "AI" suffix, NO icon clutter -->
+      <a href="#top" class="brand-mark">Aazib Tariq</a>
+
+      <!-- Center Links -->
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#work" class="nav-link">Work</a>
+        <a href="#systems" class="nav-link">Systems</a>
+        <a href="#venture" class="nav-link">Growth Experts</a>
+        <a href="#entity" class="nav-link">Entity</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Right Controls: ⌘K Trigger, Theme Switcher, WhatsApp CTA, Mobile Menu -->
+      <div class="nav-actions">
+        <button
+          id="open-cmd-btn"
+          type="button"
+          class="cmd-trigger"
+          aria-label="Open Spotlight Command Palette"
+          aria-keyshortcuts="Meta+K Control+K"
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.3-4.3"></path>
+          </svg>
+          <span class="kbd" id="cmd-shortcut-label">⌘K</span>
+        </button>
+
+        <button
+          id="theme-toggle-btn"
+          type="button"
+          class="icon-btn"
+          aria-label="Switch color theme"
+          title="Toggle Light / Dark appearance"
+        >
+          <!-- Sun (shown in Dark Mode) -->
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+          <!-- Moon (shown in Light Mode) -->
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <a
+          href="https://wa.me/923186725593?text=Hi%20Aazib%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect."
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-emerald btn-sm nav-wa-btn"
+        >
+          <span>WhatsApp</span>
+        </a>
+
+        <button
+          id="mobile-menu-btn"
+          type="button"
+          class="icon-btn mobile-menu-btn"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="mobile-drawer"
+        >
+          <svg id="mobile-icon-open" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+            <line x1="4" y1="7" x2="20" y2="7"></line>
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <line x1="4" y1="17" x2="20" y2="17"></line>
+          </svg>
+          <svg id="mobile-icon-close" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true" style="display:none;">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- 1px Scroll Progress Indicator -->
+    <div class="scroll-progress-track" aria-hidden="true">
+      <div id="scroll-progress-bar" class="scroll-progress-bar"></div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <nav id="mobile-drawer" class="mobile-drawer" aria-label="Mobile Navigation">
+      <ul class="mobile-drawer-list">
+        <li><a href="#work" class="mobile-drawer-link">Work</a></li>
+        <li><a href="#systems" class="mobile-drawer-link">Systems</a></li>
+        <li><a href="#venture" class="mobile-drawer-link">Growth Experts</a></li>
+        <li><a href="#entity" class="mobile-drawer-link">Entity</a></li>
+        <li><a href="#contact" class="mobile-drawer-link">Contact</a></li>
+        <li style="margin-top: 8px;">
+          <a
+            href="https://wa.me/923186725593?text=Hi%20Aazib%2C%20I%20came%20across%20your%20portfolio%20and%20would%20like%20to%20connect."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-emerald"
+            style="width: 100%;"
+          >
+            Message on WhatsApp
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+  <main id="main-content">
+
+    <!-- ==================== 2. APPLE KEYNOTE HERO + INTERACTIVE CONSOLE ==================== -->
+    <section class="hero-section" aria-labelledby="hero-heading">
+      <div class="hero-backdrop-grid" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <!-- Left 7 Columns: Monumental Keynote Positioning -->
+        <div class="hero-copy">
+          <div class="hero-eyebrow-pill">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Founder @ Growth Experts &middot; Automation &amp; Applied AI</span>
+          </div>
+
+          <h1 id="hero-heading" class="display-hero hero-headline">
+            Aazib Tariq.
+            <span class="display-hero-muted">Turning workflows into autonomous systems.</span>
+          </h1>
+
+          <p class="lead-copy hero-bio">
+            Founder of Growth Experts and hands-on automation engineer. I build applied AI software, predictive pipelines, and automated acquisition infrastructure that eliminate operational bottlenecks.
+          </p>
+
+          <div class="hero-cta-row">
+            <a
+              href="https://wa.me/923186725593?text=Hi%20Aazib%2C%20I%20came%20across%20your%20portfolio%20and%20wanted%20to%20connect%20about%20AI%20automation%20or%20Growth%20Experts."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-emerald"
+            >
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <span>Message on WhatsApp</span>
+            </a>
+
+            <a
+              href="https://growthexperts.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-secondary"
+            >
+              <span>Explore Growth Experts</span>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M7 17 17 7"></path>
+                <path d="M7 7h10v10"></path>
+              </svg>
+            </a>
+          </div>
+
+          <button type="button" id="hero-cmd-hint" class="hero-hint-btn">
+            <span>Press</span>
+            <span class="kbd">⌘K</span>
+            <span>to navigate, inspect projects, or copy verified schema</span>
+          </button>
+        </div>
+
+        <!-- Right 5 Columns: Interactive macOS Sequoia Precision Console Card -->
+        <aside class="titanium-card console-card" aria-label="Interactive System Console">
+          <div class="console-chrome">
+            <div class="window-dots" aria-hidden="true">
+              <span class="window-dot"></span>
+              <span class="window-dot"></span>
+              <span class="window-dot"></span>
+            </div>
+            <span class="console-path">inspector://aazib-tariq</span>
+          </div>
+
+          <div class="console-tabs-bar">
+            <div class="segmented" role="tablist" aria-label="Console views">
+              <button type="button" class="segmented-btn" role="tab" id="tab-identity" aria-selected="true" aria-controls="panel-identity" data-console-tab="identity">
+                01 Identity
+              </button>
+              <button type="button" class="segmented-btn" role="tab" id="tab-arch" aria-selected="false" aria-controls="panel-arch" data-console-tab="arch">
+                02 Live Architecture
+              </button>
+              <button type="button" class="segmented-btn" role="tab" id="tab-stack" aria-selected="false" aria-controls="panel-stack" data-console-tab="stack">
+                03 Stack
+              </button>
+            </div>
+          </div>
+
+          <div class="console-body">
+            <!-- Panel 01: Verified Identity Telemetry -->
+            <div id="panel-identity" class="console-panel" role="tabpanel" aria-labelledby="tab-identity">
+              <div class="telemetry-list">
+                <div class="telemetry-row">
+                  <span class="telemetry-key">entity.name</span>
+                  <span class="telemetry-val">Aazib Tariq</span>
+                </div>
+                <div class="telemetry-row">
+                  <span class="telemetry-key">entity.legal</span>
+                  <span class="telemetry-val">Muhammad Aazib Tariq</span>
+                </div>
+                <div class="telemetry-row">
+                  <span class="telemetry-key">role.primary</span>
+                  <span class="telemetry-val">Founder &amp; AI Builder</span>
+                </div>
+                <div class="telemetry-row">
+                  <span class="telemetry-key">entity.home</span>
+                  <a href="https://aazib-tariq.github.io/" class="telemetry-link">aazib-tariq.github.io</a>
+                </div>
+                <div class="telemetry-row">
+                  <span class="telemetry-key">venture.url</span>
+                  <a href="https://growthexperts.vercel.app/" target="_blank" rel="noopener noreferrer" class="telemetry-link">growthexperts.vercel.app ↗</a>
+                </div>
+                <div class="telemetry-row">
+                  <span class="telemetry-key">sameAs.github</span>
+                  <a href="https://github.com/aazib-tariq" target="_blank" rel="me noopener noreferrer" class="telemetry-link">github.com/aazib-tariq ↗</a>
+                </div>
+                <div class="telemetry-row">
+                  <span class="telemetry-key">sameAs.linkedin</span>
+                  <a href="https://www.linkedin.com/in/aazibtariq/" target="_blank" rel="me noopener noreferrer" class="telemetry-link">linkedin.com/in/aazibtariq ↗</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Panel 02: Interactive Live Architecture SVG Schematic -->
+            <div id="panel-arch" class="console-panel" role="tabpanel" aria-labelledby="tab-arch" hidden>
+              <div class="arch-svg-wrap">
+                <svg class="arch-svg" viewBox="0 0 440 176" role="img" aria-label="Interactive autonomous system pipeline schematic">
+                  <!-- Precision Orthogonal Hairlines -->
+                  <path id="pulse-path-1" d="M 102 44 H 170 V 88 H 238" fill="none" stroke="var(--border-strong)" stroke-width="1.2" />
+                  <path id="pulse-path-2" d="M 334 88 H 376 V 44" fill="none" stroke="var(--border-strong)" stroke-width="1.2" />
+                  <path id="pulse-path-3" d="M 286 112 V 144 H 336" fill="none" stroke="var(--border-strong)" stroke-width="1.2" />
+                  <path id="pulse-path-4" d="M 102 136 H 170 V 88" fill="none" stroke="var(--border-hairline)" stroke-width="1.2" stroke-dasharray="3 3" />
+
+                  <!-- Animated Precision Data Pulse Dots -->
+                  <circle r="3" fill="var(--accent)">
+                    <animateMotion dur="2.6s" repeatCount="indefinite" path="M 102 44 H 170 V 88 H 238" />
+                  </circle>
+                  <circle r="3" fill="var(--emerald)">
+                    <animateMotion dur="2.2s" begin="0.8s" repeatCount="indefinite" path="M 286 112 V 144 H 336" />
+                  </circle>
+
+                  <!-- Node 1: Signal Intake -->
+                  <g class="arch-node-btn is-active" tabindex="0" role="button" data-arch-node="intake" aria-label="Inspect Signal Intake node">
+                    <rect class="arch-node-rect" x="12" y="22" width="90" height="44" rx="8"></rect>
+                    <text x="57" y="41" text-anchor="middle" fill="var(--ink-tertiary)" font-size="8.5" font-family="ui-monospace, monospace">01</text>
+                    <text x="57" y="55" text-anchor="middle" fill="var(--ink-primary)" font-size="10" font-weight="600">Signal Intake</text>
+                  </g>
+
+                  <!-- Node 2: AI Decision Engine -->
+                  <g class="arch-node-btn" tabindex="0" role="button" data-arch-node="engine" aria-label="Inspect AI Decision Engine node">
+                    <rect class="arch-node-rect" x="238" y="64" width="96" height="48" rx="8"></rect>
+                    <text x="286" y="84" text-anchor="middle" fill="var(--accent)" font-size="8.5" font-family="ui-monospace, monospace">02</text>
+                    <text x="286" y="99" text-anchor="middle" fill="var(--ink-primary)" font-size="10" font-weight="600">AI Decision</text>
+                  </g>
+
+                  <!-- Node 3: Autonomous Execution -->
+                  <g class="arch-node-btn" tabindex="0" role="button" data-arch-node="exec" aria-label="Inspect Autonomous Execution node">
+                    <rect class="arch-node-rect" x="332" y="16" width="96" height="44" rx="8"></rect>
+                    <text x="380" y="35" text-anchor="middle" fill="var(--ink-tertiary)" font-size="8.5" font-family="ui-monospace, monospace">03</text>
+                    <text x="380" y="49" text-anchor="middle" fill="var(--ink-primary)" font-size="10" font-weight="600">Execution</text>
+                  </g>
+
+                  <!-- Node 4: Growth Output -->
+                  <g class="arch-node-btn" tabindex="0" role="button" data-arch-node="output" aria-label="Inspect Growth Output node">
+                    <rect class="arch-node-rect" x="336" y="122" width="92" height="44" rx="8"></rect>
+                    <text x="382" y="141" text-anchor="middle" fill="var(--emerald)" font-size="8.5" font-family="ui-monospace, monospace">04</text>
+                    <text x="382" y="155" text-anchor="middle" fill="var(--ink-primary)" font-size="10" font-weight="600">Growth Output</text>
+                  </g>
+
+                  <!-- Auxiliary Feedback Label -->
+                  <text x="57" y="140" text-anchor="middle" fill="var(--ink-tertiary)" font-size="9" font-family="ui-monospace, monospace">telemetry loop</text>
+                </svg>
+              </div>
+
+              <div class="arch-inspector" aria-live="polite">
+                <div class="arch-inspector-head">
+                  <span id="arch-node-title" class="arch-inspector-title">01 · Signal Intake</span>
+                  <span id="arch-node-tag" class="arch-inspector-tag">webhooks · telemetry</span>
+                </div>
+                <p id="arch-node-desc" class="meta-copy" style="color: var(--ink-secondary);">
+                  Captures inbound ad leads, field sensor streams, or B2B prospecting signals into normalized schemas. Click any node above to inspect.
+                </p>
+              </div>
+            </div>
+
+            <!-- Panel 03: Core Engineering Stack Matrix -->
+            <div id="panel-stack" class="console-panel" role="tabpanel" aria-labelledby="tab-stack" hidden>
+              <div class="stack-matrix">
+                <div class="stack-cell">
+                  <span class="stack-cell-name">Python</span>
+                  <span class="stack-cell-role">ML &amp; Predictive Models</span>
+                </div>
+                <div class="stack-cell">
+                  <span class="stack-cell-name">TypeScript</span>
+                  <span class="stack-cell-role">Type-Safe Systems</span>
+                </div>
+                <div class="stack-cell">
+                  <span class="stack-cell-name">Next.js</span>
+                  <span class="stack-cell-role">Full-Stack Web Apps</span>
+                </div>
+                <div class="stack-cell">
+                  <span class="stack-cell-name">JavaScript</span>
+                  <span class="stack-cell-role">Web &amp; API Tooling</span>
+                </div>
+                <div class="stack-cell">
+                  <span class="stack-cell-name">AI Agents</span>
+                  <span class="stack-cell-role">Autonomous Reasoning</span>
+                </div>
+                <div class="stack-cell">
+                  <span class="stack-cell-name">Workflow Automation</span>
+                  <span class="stack-cell-role">Zero-Touch Pipelines</span>
+                </div>
+                <div class="stack-cell" style="grid-column: 1 / -1;">
+                  <span class="stack-cell-name">Conversion Systems</span>
+                  <span class="stack-cell-role">Facebook &amp; Instagram Acquisition &middot; Funnel Attribution &middot; Lead Qualification</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="console-footer">
+            <span class="tabular">schema.org: verified</span>
+            <span class="tabular" style="color: var(--emerald);">status: online</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ==================== 3. SELECTED WORK — ARCHITECTURAL SHOWCASE ==================== -->
+    <section id="work" class="section section--bordered" aria-labelledby="work-heading">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head-row">
+            <div>
+              <p class="eyebrow-caps" style="margin-bottom: 8px;">Selected Work</p>
+              <h2 id="work-heading" class="section-title">Engineered Products &amp; Systems</h2>
+            </div>
+
+            <!-- Accessible Segmented Filter Control -->
+            <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 16px;">
+              <div class="segmented" role="tablist" aria-label="Filter projects by category">
+                <button type="button" class="segmented-btn" role="tab" aria-selected="true" data-work-filter="all">All</button>
+                <button type="button" class="segmented-btn" role="tab" aria-selected="false" data-work-filter="applied-ai">Applied AI</button>
+                <button type="button" class="segmented-btn" role="tab" aria-selected="false" data-work-filter="automation">Automation</button>
+                <button type="button" class="segmented-btn" role="tab" aria-selected="false" data-work-filter="agency">Agency</button>
+              </div>
+              <span id="work-count" class="meta-copy mono tabular" aria-live="polite">4 / 4 systems</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-grid">
+          <!-- 1. Growth Experts (Flagship · Public) -->
+          <article class="titanium-card project-card reveal" data-categories="agency automation" data-open-project="growth-experts">
+            <div class="project-schematic-strip" aria-hidden="true">
+              <svg class="project-schematic-svg" viewBox="0 0 420 120">
+                <line x1="24" y1="60" x2="396" y2="60" stroke="var(--border-subtle)" stroke-width="1" stroke-dasharray="4 4" />
+                <path d="M 52 34 L 146 60 L 52 86" fill="none" stroke="var(--border-strong)" stroke-width="1.2" />
+                <line x1="146" y1="60" x2="254" y2="60" stroke="var(--accent)" stroke-width="1.5" />
+                <line x1="254" y1="60" x2="354" y2="60" stroke="var(--emerald)" stroke-width="1.5" />
+                <rect x="20" y="20" width="64" height="28" rx="6" fill="var(--bg-surface-2)" stroke="var(--border-strong)" stroke-width="1" />
+                <text x="52" y="38" text-anchor="middle" fill="var(--ink-secondary)" font-size="8.5" font-family="ui-monospace, monospace">META ADS</text>
+                <rect x="20" y="72" width="64" height="28" rx="6" fill="var(--bg-surface-2)" stroke="var(--border-strong)" stroke-width="1" />
+                <text x="52" y="90" text-anchor="middle" fill="var(--ink-secondary)" font-size="8.5" font-family="ui-monospace, monospace">INBOUND</text>
+                <rect x="134" y="42" width="84" height="36" rx="8" fill="var(--accent-tint)" stroke="var(--accent)" stroke-width="1.2" />
+                <text x="176" y="64" text-anchor="middle" fill="var(--ink-primary)" font-size="9" font-family="ui-monospace, monospace">AI ROUTER</text>
+                <rect x="254" y="42" width="66" height="36" rx="8" fill="var(--bg-surface-2)" stroke="var(--border-strong)" stroke-width="1.2" />
+                <text x="287" y="64" text-anchor="middle" fill="var(--ink-secondary)" font-size="8.5" font-family="ui-monospace, monospace">SCORE</text>
+                <rect x="342" y="42" width="60" height="36" rx="8" fill="var(--emerald-tint)" stroke="var(--emerald)" stroke-width="1.2" />
+                <text x="372" y="64" text-anchor="middle" fill="var(--emerald)" font-size="8.5" font-family="ui-monospace, monospace">SCALE</text>
+              </svg>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-badge">Agency &middot; Automation &middot; Public</span>
+                <span class="project-flagship-tag">Flagship</span>
+              </div>
+              <h3 class="card-title">Growth Experts</h3>
+              <p class="body-copy">
+                Automation-first growth agency platform scaling businesses with AI-driven workflows, conversion strategy, and intelligent lead generation.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-pill">Next.js</span>
+                <span class="tech-pill">TypeScript</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">AI Workflows</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-ext-links">
+                <a href="https://growthexperts.vercel.app/" target="_blank" rel="noopener noreferrer" class="text-link" data-stop-card>
+                  <span>Live Site</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"></path><path d="M7 7h10v10"></path></svg>
+                </a>
+                <a href="https://github.com/aazib-tariq/growthexperts" target="_blank" rel="noopener noreferrer" class="muted-link" data-stop-card>
+                  <span>GitHub</span>
+                </a>
+              </div>
+              <button type="button" class="btn btn-secondary btn-sm" data-open-project="growth-experts">
+                Architecture
+              </button>
+            </div>
+          </article>
+
+          <!-- 2. Agri Track Thrive (Public) -->
+          <article class="titanium-card project-card reveal" data-categories="applied-ai" data-open-project="agri-track-thrive">
+            <div class="project-schematic-strip" aria-hidden="true">
+              <svg class="project-schematic-svg" viewBox="0 0 420 120">
+                <g stroke="var(--border-subtle)" stroke-width="1">
+                  <line x1="28" y1="24" x2="392" y2="24" />
+                  <line x1="28" y1="60" x2="392" y2="60" />
+                  <line x1="28" y1="96" x2="392" y2="96" />
+                </g>
+                <path d="M 32 88 C 92 84, 132 52, 196 58 C 254 63, 304 28, 386 24" fill="none" stroke="var(--emerald)" stroke-width="1.8" />
+                <path d="M 32 96 C 102 90, 152 74, 224 72 C 282 70, 326 48, 386 46" fill="none" stroke="var(--accent)" stroke-width="1.2" stroke-dasharray="4 3" />
+                <circle cx="196" cy="58" r="4.5" fill="var(--bg-code)" stroke="var(--emerald)" stroke-width="1.6" />
+                <circle cx="386" cy="24" r="4.5" fill="var(--emerald)" />
+                <rect x="28" y="16" width="128" height="22" rx="5" fill="var(--bg-surface-2)" stroke="var(--border-hairline)" />
+                <text x="92" y="30" text-anchor="middle" fill="var(--ink-secondary)" font-size="8.5" font-family="ui-monospace, monospace">YIELD FORECAST MODEL</text>
+              </svg>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-badge">Applied AI &middot; Public</span>
+              </div>
+              <h3 class="card-title">Agri Track Thrive</h3>
+              <p class="body-copy">
+                AI-powered agricultural management platform built to help farmers track crops, predict yields, and optimize resources autonomously.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">TypeScript</span>
+                <span class="tech-pill">AI Agents</span>
+                <span class="tech-pill">Data Science</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-ext-links">
+                <a href="https://github.com/aazib-tariq/agri-track-thrive" target="_blank" rel="noopener noreferrer" class="text-link" data-stop-card>
+                  <span>GitHub</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"></path><path d="M7 7h10v10"></path></svg>
+                </a>
+              </div>
+              <button type="button" class="btn btn-secondary btn-sm" data-open-project="agri-track-thrive">
+                Architecture
+              </button>
+            </div>
+          </article>
+
+          <!-- 3. BatteryVolt AI (Private Repo — Case Study) -->
+          <article class="titanium-card project-card reveal" data-categories="applied-ai" data-open-project="batteryvolt-ai">
+            <div class="project-schematic-strip" aria-hidden="true">
+              <svg class="project-schematic-svg" viewBox="0 0 420 120">
+                <rect x="24" y="18" width="236" height="84" rx="8" fill="none" stroke="var(--border-subtle)" />
+                <rect x="260" y="18" width="136" height="84" rx="8" fill="var(--accent-tint)" stroke="var(--accent-border)" stroke-dasharray="3 3" />
+                <polyline points="32,76 66,72 98,64 134,68 172,56 212,58 260,48" fill="none" stroke="var(--ink-primary)" stroke-width="1.6" />
+                <polyline points="260,48 296,44 334,38 386,32" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-dasharray="4 3" />
+                <circle cx="260" cy="48" r="4" fill="var(--accent)" />
+                <text x="328" y="92" text-anchor="middle" fill="var(--accent)" font-size="8" font-family="ui-monospace, monospace">HORIZON t+n</text>
+                <text x="92" y="34" text-anchor="middle" fill="var(--ink-tertiary)" font-size="8" font-family="ui-monospace, monospace">VOLTAGE TELEMETRY</text>
+              </svg>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-badge">Applied AI &middot; Private Repo &mdash; Case Study</span>
+              </div>
+              <h3 class="card-title">BatteryVolt AI</h3>
+              <p class="body-copy">
+                AI-powered battery voltage prediction system engineered for intelligent diagnostics and predictive telemetry.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-pill">Python</span>
+                <span class="tech-pill">Machine Learning</span>
+                <span class="tech-pill">Predictive Modeling</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <span class="meta-copy mono">Private &middot; Available on Request</span>
+              <button type="button" class="btn btn-secondary btn-sm" data-open-project="batteryvolt-ai">
+                Case Study
+              </button>
+            </div>
+          </article>
+
+          <!-- 4. Lead Minner (Private Repo — Case Study) -->
+          <article class="titanium-card project-card reveal" data-categories="automation applied-ai" data-open-project="lead-minner">
+            <div class="project-schematic-strip" aria-hidden="true">
+              <svg class="project-schematic-svg" viewBox="0 0 420 120">
+                <g stroke="var(--border-strong)" stroke-width="1.2">
+                  <line x1="76" y1="30" x2="180" y2="60" />
+                  <line x1="76" y1="60" x2="180" y2="60" />
+                  <line x1="76" y1="90" x2="180" y2="60" />
+                  <line x1="256" y1="60" x2="332" y2="60" stroke="var(--emerald)" stroke-width="1.5" />
+                </g>
+                <circle cx="64" cy="30" r="10" fill="var(--bg-surface-2)" stroke="var(--border-strong)" />
+                <circle cx="64" cy="60" r="10" fill="var(--bg-surface-2)" stroke="var(--border-strong)" />
+                <circle cx="64" cy="90" r="10" fill="var(--bg-surface-2)" stroke="var(--border-strong)" />
+                <rect x="176" y="38" width="84" height="44" rx="8" fill="var(--bg-surface-2)" stroke="var(--accent)" stroke-width="1.2" />
+                <text x="218" y="64" text-anchor="middle" fill="var(--ink-primary)" font-size="8.5" font-family="ui-monospace, monospace">ENRICH + AI</text>
+                <rect x="332" y="42" width="66" height="36" rx="8" fill="var(--emerald-tint)" stroke="var(--emerald)" stroke-width="1.2" />
+                <text x="365" y="64" text-anchor="middle" fill="var(--emerald)" font-size="8.5" font-family="ui-monospace, monospace">QUALIFIED</text>
+              </svg>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-badge">Automation &middot; Applied AI &middot; Private Repo</span>
+              </div>
+              <h3 class="card-title">Lead Minner</h3>
+              <p class="body-copy">
+                AI-powered business lead generation engine automating prospect discovery, enrichment, and qualification workflows.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-pill">TypeScript</span>
+                <span class="tech-pill">Automation</span>
+                <span class="tech-pill">AI Pipelines</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <span class="meta-copy mono">Private &middot; Available on Request</span>
+              <button type="button" class="btn btn-secondary btn-sm" data-open-project="lead-minner">
+                Case Study
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. INTERACTIVE AUTONOMOUS WORKFLOW SIMULATOR ==================== -->
+    <section id="systems" class="section section--bordered" aria-labelledby="systems-heading">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head-row">
+            <div>
+              <p class="eyebrow-caps" style="margin-bottom: 8px;">Systems in Motion &middot; Interactive Architecture Simulation</p>
+              <h2 id="systems-heading" class="section-title">Autonomous Workflow Simulator</h2>
+            </div>
+            <p class="meta-copy" style="max-width: 360px;">
+              Step through deterministic architecture models of two real pipelines I build—from raw signal intake to autonomous execution.
+            </p>
+          </div>
+        </div>
+
+        <div class="titanium-card sim-card reveal">
+          <!-- Pipeline Selector & Run / Reset Controls -->
+          <div class="sim-toolbar">
+            <div class="segmented" role="tablist" aria-label="Select workflow architecture to simulate">
+              <button type="button" class="segmented-btn" role="tab" aria-selected="true" data-sim-preset="growth">
+                Growth Experts &mdash; Lead Engine
+              </button>
+              <button type="button" class="segmented-btn" role="tab" aria-selected="false" data-sim-preset="agri">
+                Agri Track Thrive &mdash; Farm Intelligence
+              </button>
+            </div>
+
+            <div class="sim-controls">
+              <button type="button" id="sim-run-btn" class="btn btn-accent btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <polygon points="6 4 20 12 6 20 6 4"></polygon>
+                </svg>
+                <span>Run Simulation</span>
+              </button>
+              <button type="button" id="sim-reset-btn" class="btn btn-secondary btn-sm">
+                Reset
+              </button>
+            </div>
+          </div>
+
+          <!-- 4-Stage Animated Pipeline -->
+          <div id="sim-stages-grid" class="pipeline-stages" aria-live="polite">
+            <!-- Populated cleanly via JS on init & preset switch -->
+          </div>
+
+          <!-- Execution Progress Bar -->
+          <div class="sim-progress-rail" aria-hidden="true">
+            <div id="sim-progress-fill" class="sim-progress-fill"></div>
+          </div>
+
+          <!-- Monochrome Execution Trace Log -->
+          <div class="sim-log-box">
+            <div class="sim-log-header">
+              <span id="sim-log-title">execution.trace &middot; interactive architecture simulation</span>
+              <span id="sim-total-ms" class="tabular">elapsed: 0 ms</span>
+            </div>
+            <div id="sim-log-stream" class="sim-log-stream" role="log" aria-live="polite">
+              <div class="log-line">
+                <span class="log-ts tabular">[000 ms]</span>
+                <span class="log-tag">READY</span>
+                <span>Select a pipeline above and press "Run Simulation" to execute all 4 autonomous stages.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. GROWTH EXPERTS — FLAGSHIP VENTURE BAND ==================== -->
+    <section id="venture" class="section section--bordered" aria-labelledby="venture-heading">
+      <div class="container">
+        <div class="titanium-card venture-band reveal">
+          <div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px;">
+            <div style="max-width: 640px; display: flex; flex-direction: column; gap: 12px;">
+              <p class="eyebrow-caps">Flagship Venture &middot; Founder &amp; Architect</p>
+              <h2 id="venture-heading" class="section-title">Growth Experts</h2>
+              <p class="lead-copy">
+                Where engineering meets revenue. Growth Experts combines paid Facebook &amp; Instagram acquisition, conversion strategy, and autonomous AI lead workflows into a single scalable acquisition system.
+              </p>
+            </div>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+              <a
+                href="https://growthexperts.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-accent"
+              >
+                <span>Visit growthexperts.vercel.app</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17 17 7"></path>
+                  <path d="M7 7h10v10"></path>
+                </svg>
+              </a>
+              <button type="button" id="venture-inquire-btn" class="btn btn-secondary">
+                Inquire via WhatsApp
+              </button>
+            </div>
+          </div>
+
+          <div class="venture-pillars">
+            <div class="pillar-item">
+              <span class="pillar-num">01 / ACQUISITION</span>
+              <h3 class="pillar-title">Facebook &amp; Instagram Ads</h3>
+              <p class="body-copy">
+                Structured paid social acquisition engineered around creative testing, intent segmentation, and measurable conversion attribution.
+              </p>
+            </div>
+            <div class="pillar-item">
+              <span class="pillar-num">02 / CONVERSION</span>
+              <h3 class="pillar-title">Conversion Strategy</h3>
+              <p class="body-copy">
+                High-clarity landing flows and offer positioning built to turn cold ad clicks into qualified pipeline without friction.
+              </p>
+            </div>
+            <div class="pillar-item">
+              <span class="pillar-num">03 / AUTOMATION</span>
+              <h3 class="pillar-title">Autonomous AI Lead Workflows</h3>
+              <p class="body-copy">
+                Automated enrichment, qualification scoring, and instant multi-channel routing so every inbound lead receives rapid precision follow-up.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. VERIFIED ENTITY GRAPH (SEO & AI SEARCH TRANSPARENCY) ==================== -->
+    <section id="entity" class="section section--bordered" aria-labelledby="entity-heading">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head-row">
+            <div>
+              <p class="eyebrow-caps" style="margin-bottom: 8px;">Entity Home &middot; Knowledge Graph Verification</p>
+              <h2 id="entity-heading" class="section-title">Verified Cross-Platform Identity</h2>
+            </div>
+            <p class="meta-copy" style="max-width: 390px;">
+              Canonical structured identity graph linking Aazib Tariq (Muhammad Aazib Tariq) across official web properties for search engines and AI systems.
+            </p>
+          </div>
+        </div>
+
+        <div class="titanium-card entity-card reveal">
+          <div class="entity-nodes-grid">
+            <a href="https://aazib-tariq.github.io/" class="entity-node">
+              <div>
+                <span class="entity-node-label">Canonical Entity Home</span>
+                <span class="entity-node-url">https://aazib-tariq.github.io/</span>
+              </div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"></path><path d="M7 7h10v10"></path></svg>
+            </a>
+
+            <a href="https://growthexperts.vercel.app/" target="_blank" rel="noopener noreferrer" class="entity-node">
+              <div>
+                <span class="entity-node-label">Founded Organization</span>
+                <span class="entity-node-url">https://growthexperts.vercel.app/</span>
+              </div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"></path><path d="M7 7h10v10"></path></svg>
+            </a>
+
+            <a href="https://github.com/aazib-tariq" target="_blank" rel="me noopener noreferrer" class="entity-node">
+              <div>
+                <span class="entity-node-label">Engineering Profile (sameAs)</span>
+                <span class="entity-node-url">https://github.com/aazib-tariq</span>
+              </div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"></path><path d="M7 7h10v10"></path></svg>
+            </a>
+
+            <a href="https://www.linkedin.com/in/aazibtariq/" target="_blank" rel="me noopener noreferrer" class="entity-node">
+              <div>
+                <span class="entity-node-label">Executive Profile (sameAs)</span>
+                <span class="entity-node-url">https://www.linkedin.com/in/aazibtariq/</span>
+              </div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"></path><path d="M7 7h10v10"></path></svg>
+            </a>
+          </div>
+
+          <div class="entity-actions">
+            <button type="button" id="toggle-schema-btn" class="btn btn-secondary btn-sm" aria-expanded="false" aria-controls="schema-drawer">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+              <span id="toggle-schema-label">Inspect JSON-LD Schema</span>
+            </button>
+
+            <button type="button" id="copy-schema-btn" class="btn btn-secondary btn-sm">
+              <svg id="schema-copy-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
+                <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
+              </svg>
+              <svg id="schema-check-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--emerald)" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="display:none;">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span id="copy-schema-label">Copy Entity JSON</span>
+            </button>
+          </div>
+
+          <div id="schema-drawer" class="schema-drawer" hidden>
+            <pre id="schema-code-output" class="schema-code"></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. INTERACTIVE WHATSAPP DIRECT STUDIO ==================== -->
+    <section id="contact" class="section section--bordered" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow-caps">Direct Line &middot; WhatsApp Studio</p>
+          <h2 id="contact-heading" class="section-title">Start a Direct Conversation</h2>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Direct Details & Official Links -->
+          <div class="titanium-card contact-info-card reveal">
+            <div>
+              <h3 class="card-title" style="margin-bottom: 8px;">Reach Aazib Directly</h3>
+              <p class="body-copy">
+                Whether you want to architect an autonomous workflow, build an applied AI tool, or scale acquisition with Growth Experts—pick a topic on the right or message directly.
+              </p>
+            </div>
+
+            <div class="direct-number-box">
+              <div>
+                <span class="entity-node-label" style="margin-bottom: 2px;">Verified WhatsApp</span>
+                <span class="direct-number-val tabular">+92 318 6725593</span>
+              </div>
+              <button type="button" id="copy-phone-btn" class="btn btn-secondary btn-sm">
+                <span id="copy-phone-label">Copy</span>
+              </button>
+            </div>
+
+            <div class="quick-channels">
+              <a href="https://growthexperts.vercel.app/" target="_blank" rel="noopener noreferrer" class="channel-row">
+                <span>Growth Experts</span>
+                <span class="mono meta-copy">growthexperts.vercel.app ↗</span>
+              </a>
+              <a href="https://github.com/aazib-tariq" target="_blank" rel="me noopener noreferrer" class="channel-row">
+                <span>GitHub</span>
+                <span class="mono meta-copy">@aazib-tariq ↗</span>
+              </a>
+              <a href="https://www.linkedin.com/in/aazibtariq/" target="_blank" rel="me noopener noreferrer" class="channel-row">
+                <span>LinkedIn</span>
+                <span class="mono meta-copy">/in/aazibtariq ↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Pre-filled Interactive WhatsApp Composer -->
+          <div class="titanium-card composer-card reveal">
+            <div>
+              <span id="topic-label" class="field-label">Select a Topic</span>
+              <div class="topic-pills" role="radiogroup" aria-labelledby="topic-label">
+                <button type="button" class="topic-pill" role="radio" aria-checked="true" data-wa-topic="automation">
+                  AI &amp; Automation Build
+                </button>
+                <button type="button" class="topic-pill" role="radio" aria-checked="false" data-wa-topic="growth">
+                  Scale with Growth Experts
+                </button>
+                <button type="button" class="topic-pill" role="radio" aria-checked="false" data-wa-topic="collab">
+                  Tech Collaboration
+                </button>
+                <button type="button" class="topic-pill" role="radio" aria-checked="false" data-wa-topic="hello">
+                  Quick Hello
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;">
+                <label for="wa-textarea" class="field-label" style="margin-bottom: 0;">Pre-filled Message</label>
+                <span id="wa-char-count" class="meta-copy mono tabular">0 chars</span>
+              </div>
+              <textarea
+                id="wa-textarea"
+                class="composer-textarea"
+                rows="4"
+                aria-describedby="wa-helper"
+                placeholder="Write your message for Aazib Tariq..."
+              ></textarea>
+              <div class="composer-meta-row">
+                <span id="wa-helper" class="composer-helper" aria-live="polite">
+                  Launches WhatsApp in a new tab with your exact message pre-filled.
+                </span>
+              </div>
+            </div>
+
+            <div class="composer-actions">
+              <a
+                id="wa-launch-btn"
+                href="https://wa.me/923186725593"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-emerald"
+              >
+                <span>Open in WhatsApp</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M7 17 17 7"></path>
+                  <path d="M7 7h10v10"></path>
+                </svg>
+              </a>
+
+              <button type="button" id="wa-copy-msg-btn" class="btn btn-secondary btn-sm">
+                <span id="wa-copy-msg-label">Copy Message</span>
+              </button>
+
+              <button type="button" id="wa-reset-btn" class="btn btn-ghost btn-sm">
+                Reset
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== 8. CLEAN FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="meta-copy tabular">&copy; 2026 Aazib Tariq &middot; Official Entity Home</p>
+      <div class="footer-links">
+        <a href="https://growthexperts.vercel.app/" target="_blank" rel="noopener noreferrer" class="muted-link">Growth Experts</a>
+        <a href="https://github.com/aazib-tariq" target="_blank" rel="me noopener noreferrer" class="muted-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/aazibtariq/" target="_blank" rel="me noopener noreferrer" class="muted-link">LinkedIn</a>
+        <button type="button" id="footer-cmd-btn" class="muted-link" style="background:none; border:none; cursor:pointer; padding:0;">
+          <span>Command Palette</span>
+          <span class="kbd">⌘K</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== HIG ACCESSIBLE ARCHITECTURE SHEET MODAL ==================== -->
+  <div id="project-sheet-overlay" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="sheet-title" aria-hidden="true">
+    <div class="sheet-dialog" role="document">
+      <div class="sheet-header">
+        <div>
+          <p id="sheet-badge" class="project-badge" style="margin-bottom: 6px;"></p>
+          <h3 id="sheet-title" class="section-title" style="font-size: 1.625rem;"></h3>
+        </div>
+        <button id="sheet-close-btn" type="button" class="icon-btn" aria-label="Close architecture sheet">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div id="sheet-schematic-slot" class="sheet-schematic" aria-hidden="true"></div>
+
+      <div class="sheet-body">
+        <div>
+          <span class="sheet-section-label">Problem Statement</span>
+          <p id="sheet-problem" class="body-copy"></p>
+        </div>
+
+        <div>
+          <span class="sheet-section-label">System Architecture</span>
+          <p id="sheet-design" class="body-copy"></p>
+        </div>
+
+        <div>
+          <span class="sheet-section-label">Core Capabilities</span>
+          <ul id="sheet-capabilities" class="sheet-cap-list"></ul>
+        </div>
+
+        <div>
+          <span class="sheet-section-label">Technology Stack</span>
+          <div id="sheet-stack" class="project-tech-list" style="padding-top: 0;"></div>
+        </div>
+      </div>
+
+      <div class="sheet-footer">
+        <div id="sheet-links" style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px;"></div>
+        <button type="button" id="sheet-discuss-btn" class="btn btn-emerald btn-sm">
+          Discuss this build on WhatsApp
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== SPOTLIGHT / RAYCAST COMMAND PALETTE (⌘K) ==================== -->
+  <div id="cmd-overlay" class="cmd-overlay" role="dialog" aria-modal="true" aria-label="Spotlight Command Palette" aria-hidden="true">
+    <div class="cmd-dialog" role="document">
+      <div class="cmd-search-bar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--ink-tertiary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.3-4.3"></path>
+        </svg>
+        <input
+          id="cmd-input"
+          type="text"
+          class="cmd-input"
+          placeholder="Search commands, projects, links, or actions..."
+          autocomplete="off"
+          aria-autocomplete="list"
+          aria-controls="cmd-results"
+        />
+        <span class="kbd">ESC</span>
+      </div>
+
+      <ul id="cmd-results" class="cmd-list" role="listbox" aria-label="Available commands"></ul>
+
+      <div class="cmd-footer">
+        <div class="cmd-hints">
+          <span><span class="kbd">↑</span> <span class="kbd">↓</span> Navigate</span>
+          <span><span class="kbd">↵</span> Execute</span>
+        </div>
+        <span class="mono">aazib-tariq.github.io</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Pill -->
+  <div id="toast-pill" class="toast-pill" role="status" aria-live="polite">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--emerald)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toast-text">Copied to clipboard</span>
+  </div>
+
+  <!-- ==================== PRODUCTION VANILLA JS ENGINE ==================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      var WA_NUMBER = '923186725593';
+      var WA_FORMATTED = '+92 318 6725593';
+      var PORTFOLIO_URL = 'https://aazib-tariq.github.io/';
+      var GROWTH_EXPERTS_URL = 'https://growthexperts.vercel.app/';
+
+      /* ----------------------------------------------------------------
+       * Utility: Safe Clipboard Copy (Works inside sandboxed iframes)
+       * ---------------------------------------------------------------- */
+      function copyTextSafely(text) {
+        try {
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          ta.setAttribute('readonly', '');
+          ta.style.position = 'fixed';
+          ta.style.top = '-9999px';
+          ta.style.left = '-9999px';
+          document.body.appendChild(ta);
+          ta.select();
+          ta.setSelectionRange(0, text.length);
+          var ok = document.execCommand('copy');
+          document.body.removeChild(ta);
+          return ok;
+        } catch (err) {
+          return false;
+        }
+      }
+
+      /* Toast Feedback Helper */
+      var toastPill = document.getElementById('toast-pill');
+      var toastText = document.getElementById('toast-text');
+      var toastTimer = null;
+
+      function showToast(message) {
+        if (!toastPill || !toastText) return;
+        toastText.textContent = message;
+        toastPill.classList.add('is-visible');
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(function () {
+          toastPill.classList.remove('is-visible');
+        }, 2300);
+      }
+
+      /* ----------------------------------------------------------------
+       * 1. Scroll Progress 1px Hairline & Scroll Reveal Observer
+       * ---------------------------------------------------------------- */
+      var progressBar = document.getElementById('scroll-progress-bar');
+
+      function updateScrollProgress() {
+        if (!progressBar) return;
+        var scrollTop = window.scrollY || document.documentElement.scrollTop;
+        var maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+        var ratio = maxScroll > 0 ? Math.min(Math.max(scrollTop / maxScroll, 0), 1) : 0;
+        progressBar.style.transform = 'scaleX(' + ratio.toFixed(4) + ')';
+      }
+
+      window.addEventListener('scroll', updateScrollProgress, { passive: true });
+      window.addEventListener('resize', updateScrollProgress, { passive: true });
+      updateScrollProgress();
+
+      /* Reveal Observer */
+      var revealEls = document.querySelectorAll('.reveal');
+      if ('IntersectionObserver' in window) {
+        var revealObserver = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+
+        revealEls.forEach(function (el) {
+          revealObserver.observe(el);
+        });
+      } else {
+        revealEls.forEach(function (el) {
+          el.classList.add('is-visible');
+        });
+      }
+
+      /* ----------------------------------------------------------------
+       * 2. Machined Titanium Cursor-Tracked Specular Sheen
+       * ---------------------------------------------------------------- */
+      var prefersFinePointer = window.matchMedia && window.matchMedia('(pointer: fine)').matches;
+      if (prefersFinePointer) {
+        document.querySelectorAll('.titanium-card').forEach(function (card) {
+          card.addEventListener('pointermove', function (e) {
+            var rect = card.getBoundingClientRect();
+            card.style.setProperty('--mx', (e.clientX - rect.left) + 'px');
+            card.style.setProperty('--my', (e.clientY - rect.top) + 'px');
+          }, { passive: true });
+        });
+      }
+
+      /* ----------------------------------------------------------------
+       * 3. Theme Toggle (Anodized Obsidian Dark + Crisp Light Parity)
+       * ---------------------------------------------------------------- */
+      var themeToggleBtn = document.getElementById('theme-toggle-btn');
+
+      function setTheme(theme, persist) {
+        document.documentElement.setAttribute('data-theme', theme);
+        if (themeToggleBtn) {
+          var label = theme === 'dark' ? 'Switch to Light appearance' : 'Switch to Dark appearance';
+          themeToggleBtn.setAttribute('aria-label', label);
+          themeToggleBtn.setAttribute('title', label);
+        }
+        if (persist) {
+          try {
+            localStorage.setItem('aazib-hig-theme', theme);
+          } catch (e) { /* Ignore storage restrictions */ }
+        }
+      }
+
+      function toggleTheme() {
+        var current = document.documentElement.getAttribute('data-theme') || 'dark';
+        var next = current === 'dark' ? 'light' : 'dark';
+        setTheme(next, true);
+        showToast(next === 'dark' ? 'Switched to Obsidian Dark' : 'Switched to Crisp Light');
+      }
+
+      if (themeToggleBtn) {
+        setTheme(document.documentElement.getAttribute('data-theme') || 'dark', false);
+        themeToggleBtn.addEventListener('click', toggleTheme);
+      }
+
+      /* Adapt shortcut badge for non-Apple OS */
+      var cmdShortcutLabel = document.getElementById('cmd-shortcut-label');
+      var isApple = /Mac|iPhone|iPad|iPod/i.test(navigator.platform || navigator.userAgent || '');
+      if (cmdShortcutLabel && !isApple) {
+        cmdShortcutLabel.textContent = 'Ctrl K';
+      }
+
+      /* ----------------------------------------------------------------
+       * 4. Mobile Navigation Drawer
+       * ---------------------------------------------------------------- */
+      var mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      var mobileDrawer = document.getElementById('mobile-drawer');
+      var mobileIconOpen = document.getElementById('mobile-icon-open');
+      var mobileIconClose = document.getElementById('mobile-icon-close');
+
+      function setMobileMenu(open) {
+        if (!mobileMenuBtn || !mobileDrawer) return;
+        mobileDrawer.classList.toggle('is-open', open);
+        mobileMenuBtn.setAttribute('aria-expanded', String(open));
+        mobileMenuBtn.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
+        if (mobileIconOpen && mobileIconClose) {
+          mobileIconOpen.style.display = open ? 'none' : 'block';
+          mobileIconClose.style.display = open ? 'block' : 'none';
+        }
+      }
+
+      if (mobileMenuBtn) {
+        mobileMenuBtn.addEventListener('click', function () {
+          setMobileMenu(mobileMenuBtn.getAttribute('aria-expanded') !== 'true');
+        });
+      }
+
+      document.querySelectorAll('.mobile-drawer-link').forEach(function (link) {
+        link.addEventListener('click', function () {
+          setMobileMenu(false);
+        });
+      });
+
+      /* ----------------------------------------------------------------
+       * 5. Hero Interactive macOS Console (3 Tabs + Clickable SVG Nodes)
+       * ---------------------------------------------------------------- */
+      var consoleTabs = Array.prototype.slice.call(document.querySelectorAll('[data-console-tab]'));
+      var consolePanels = {
+        identity: document.getElementById('panel-identity'),
+        arch: document.getElementById('panel-arch'),
+        stack: document.getElementById('panel-stack')
+      };
+
+      function switchConsoleTab(tabKey) {
+        consoleTabs.forEach(function (btn) {
+          var isSelected = btn.getAttribute('data-console-tab') === tabKey;
+          btn.setAttribute('aria-selected', String(isSelected));
+          btn.setAttribute('tabindex', isSelected ? '0' : '-1');
+        });
+        Object.keys(consolePanels).forEach(function (k) {
+          if (consolePanels[k]) {
+            consolePanels[k].hidden = (k !== tabKey);
+          }
+        });
+      }
+
+      consoleTabs.forEach(function (btn, idx) {
+        btn.setAttribute('tabindex', idx === 0 ? '0' : '-1');
+        btn.addEventListener('click', function () {
+          switchConsoleTab(btn.getAttribute('data-console-tab'));
+        });
+        btn.addEventListener('keydown', function (e) {
+          var targetIdx = null;
+          if (e.key === 'ArrowRight') targetIdx = (idx + 1) % consoleTabs.length;
+          if (e.key === 'ArrowLeft') targetIdx = (idx - 1 + consoleTabs.length) % consoleTabs.length;
+          if (targetIdx !== null) {
+            e.preventDefault();
+            consoleTabs[targetIdx].focus();
+            switchConsoleTab(consoleTabs[targetIdx].getAttribute('data-console-tab'));
+          }
+        });
+      });
+
+      /* Clickable SVG Architecture Nodes */
+      var ARCH_NODES = {
+        intake: {
+          title: '01 · Signal Intake',
+          tag: 'webhooks · telemetry',
+          desc: 'Ingests inbound ad leads, B2B firmographic records, or crop/battery sensor streams into validated typed payloads.'
+        },
+        engine: {
+          title: '02 · AI Decision Engine',
+          tag: 'llm agents · python ml',
+          desc: 'Runs qualification scoring, predictive regression models, and contextual reasoning to determine the next optimal action.'
+        },
+        exec: {
+          title: '03 · Autonomous Execution',
+          tag: 'zero-touch workflows',
+          desc: 'Triggers automated CRM updates, personalized outreach dispatches, or resource allocation schedules without manual bottlenecks.'
+        },
+        output: {
+          title: '04 · Growth Output',
+          tag: 'attribution · feedback',
+          desc: 'Logs conversion events and system diagnostics back into the intake loop so performance compounds continuously.'
+        }
+      };
+
+      var archNodes = document.querySelectorAll('[data-arch-node]');
+      var archTitleEl = document.getElementById('arch-node-title');
+      var archTagEl = document.getElementById('arch-node-tag');
+      var archDescEl = document.getElementById('arch-node-desc');
+
+      function selectArchNode(key) {
+        var info = ARCH_NODES[key];
+        if (!info) return;
+        archNodes.forEach(function (node) {
+          node.classList.toggle('is-active', node.getAttribute('data-arch-node') === key);
+        });
+        if (archTitleEl) archTitleEl.textContent = info.title;
+        if (archTagEl) archTagEl.textContent = info.tag;
+        if (archDescEl) archDescEl.textContent = info.desc;
+      }
+
+      archNodes.forEach(function (node) {
+        node.addEventListener('click', function () {
+          selectArchNode(node.getAttribute('data-arch-node'));
+        });
+        node.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            selectArchNode(node.getAttribute('data-arch-node'));
+          }
+        });
+      });
+
+      /* ----------------------------------------------------------------
+       * 6. Autonomous Workflow Simulator ("Systems in Motion")
+       * ---------------------------------------------------------------- */
+      var SIM_PRESETS = {
+        growth: {
+          title: 'growth-experts://lead-engine · architecture simulation',
+          stages: [
+            {
+              step: 'Stage 01',
+              title: 'Inbound Signal',
+              desc: 'Captures Facebook & Instagram ad click + landing form payload via webhook.',
+              ms: 48,
+              logTag: 'INTAKE',
+              logMsg: 'Normalized inbound lead payload (source: Meta Ads · campaign: scale-v4).',
+              icon: '<path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>'
+            },
+            {
+              step: 'Stage 02',
+              title: 'AI Lead Qualification',
+              desc: 'Enriches company domain and evaluates fit against ICP criteria.',
+              ms: 184,
+              logTag: 'QUALIFY',
+              logMsg: 'AI qualification agent verified B2B domain & matched high-intent segment.',
+              icon: '<circle cx="12" cy="12" r="3"></circle><path d="M12 2v4"></path><path d="M12 18v4"></path><path d="m4.93 4.93 2.83 2.83"></path><path d="m16.24 16.24 2.83 2.83"></path><path d="M2 12h4"></path><path d="M18 12h4"></path>'
+            },
+            {
+              step: 'Stage 03',
+              title: 'Conversion Scoring',
+              desc: 'Assigns priority tier and selects tailored conversion messaging.',
+              ms: 112,
+              logTag: 'SCORE',
+              logMsg: 'Priority tier assigned (Tier-A) · selected conversion sequence #2.',
+              icon: '<line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line>'
+            },
+            {
+              step: 'Stage 04',
+              title: 'Automated Outreach Dispatch',
+              desc: 'Routes lead to CRM and dispatches instant contextual follow-up.',
+              ms: 76,
+              logTag: 'DISPATCH',
+              logMsg: 'CRM record synced & personalized follow-up dispatched autonomously.',
+              icon: '<line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>'
+            }
+          ]
+        },
+        agri: {
+          title: 'agri-track-thrive://farm-intelligence · architecture simulation',
+          stages: [
+            {
+              step: 'Stage 01',
+              title: 'Field & Crop Telemetry',
+              desc: 'Ingests soil moisture logs, plot history, and regional weather feeds.',
+              ms: 62,
+              logTag: 'TELEMETRY',
+              logMsg: 'Ingested multi-plot crop telemetry & moisture readings across active zones.',
+              icon: '<path d="M12 2v20"></path><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>'
+            },
+            {
+              step: 'Stage 02',
+              title: 'Yield Prediction Model',
+              desc: 'Runs Python ML regression to forecast harvest volume and stress risk.',
+              ms: 215,
+              logTag: 'PREDICT',
+              logMsg: 'Forecast model updated seasonal yield curve & flagged Zone-B moisture deficit.',
+              icon: '<polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline>'
+            },
+            {
+              step: 'Stage 03',
+              title: 'Resource Optimizer',
+              desc: 'Computes water and nutrient schedules minimizing input waste.',
+              ms: 138,
+              logTag: 'OPTIMIZE',
+              logMsg: 'Generated precision irrigation allocation balancing yield target vs. water cost.',
+              icon: '<polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline>'
+            },
+            {
+              step: 'Stage 04',
+              title: 'Autonomous Action Plan',
+              desc: 'Publishes structured daily recommendations to farmer dashboard.',
+              ms: 54,
+              logTag: 'ACTION',
+              logMsg: 'Actionable field schedule published & priority alert queued for operator.',
+              icon: '<polyline points="20 6 9 17 4 12"></polyline>'
+            }
+          ]
+        }
+      };
+
+      var simStagesGrid = document.getElementById('sim-stages-grid');
+      var simLogStream = document.getElementById('sim-log-stream');
+      var simLogTitle = document.getElementById('sim-log-title');
+      var simTotalMsEl = document.getElementById('sim-total-ms');
+      var simProgressFill = document.getElementById('sim-progress-fill');
+      var simRunBtn = document.getElementById('sim-run-btn');
+      var simResetBtn = document.getElementById('sim-reset-btn');
+      var simPresetBtns = Array.prototype.slice.call(document.querySelectorAll('[data-sim-preset]'));
+
+      var currentSimKey = 'growth';
+      var simTimers = [];
+      var isSimRunning = false;
+
+      function clearSimTimers() {
+        simTimers.forEach(function (id) { clearTimeout(id); });
+        simTimers = [];
+        isSimRunning = false;
+        if (simRunBtn) simRunBtn.disabled = false;
+      }
+
+      function renderSimPreset(key) {
+        clearSimTimers();
+        currentSimKey = SIM_PRESETS[key] ? key : 'growth';
+        var preset = SIM_PRESETS[currentSimKey];
+
+        simPresetBtns.forEach(function (btn) {
+          var active = btn.getAttribute('data-sim-preset') === currentSimKey;
+          btn.setAttribute('aria-selected', String(active));
+        });
+
+        if (simLogTitle) simLogTitle.textContent = preset.title;
+        if (simTotalMsEl) simTotalMsEl.textContent = 'elapsed: 0 ms';
+        if (simProgressFill) {
+          simProgressFill.style.width = '0%';
+          simProgressFill.classList.remove('is-complete');
+        }
+
+        if (simStagesGrid) {
+          simStagesGrid.innerHTML = preset.stages.map(function (st, idx) {
+            return (
+              '<div class="stage-card" id="sim-stage-' + idx + '">' +
+                '<div class="stage-top">' +
+                  '<span class="stage-icon-box" aria-hidden="true">' +
+                    '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">' + st.icon + '</svg>' +
+                  '</span>' +
+                  '<span class="stage-ms tabular" id="sim-stage-ms-' + idx + '">idle</span>' +
+                '</div>' +
+                '<div>' +
+                  '<p class="stage-step-label">' + st.step + '</p>' +
+                  '<h3 class="stage-title">' + st.title + '</h3>' +
+                '</div>' +
+                '<p class="stage-desc">' + st.desc + '</p>' +
+              '</div>'
+            );
+          }).join('');
+        }
+
+        if (simLogStream) {
+          simLogStream.innerHTML =
+            '<div class="log-line">' +
+              '<span class="log-ts tabular">[000 ms]</span>' +
+              '<span class="log-tag">READY</span>' +
+              '<span>Pipeline loaded. Press "Run Simulation" to step through all 4 stages.</span>' +
+            '</div>';
+        }
+      }
+
+      function appendLogLine(elapsed, tag, msg, isOk) {
+        if (!simLogStream) return;
+        var padded = String(elapsed).padStart(3, '0');
+        var row = document.createElement('div');
+        row.className = 'log-line';
+        row.innerHTML =
+          '<span class="log-ts tabular">[' + padded + ' ms]</span>' +
+          '<span class="log-tag' + (isOk ? ' log-tag--ok' : '') + '">' + tag + '</span>' +
+          '<span>' + msg + '</span>';
+        simLogStream.appendChild(row);
+      }
+
+      function runSimulation() {
+        if (isSimRunning) return;
+        renderSimPreset(currentSimKey);
+        isSimRunning = true;
+        if (simRunBtn) simRunBtn.disabled = true;
+
+        var preset = SIM_PRESETS[currentSimKey];
+        if (simLogStream) simLogStream.innerHTML = '';
+
+        var cumulativeMs = 0;
+        var stepDelay = 340;
+
+        preset.stages.forEach(function (stage, index) {
+          var startTimer = setTimeout(function () {
+            var card = document.getElementById('sim-stage-' + index);
+            var msLabel = document.getElementById('sim-stage-ms-' + index);
+            if (card) card.classList.add('is-running');
+            if (msLabel) msLabel.textContent = 'running...';
+            if (simProgressFill) {
+              simProgressFill.style.width = ((index + 0.5) / preset.stages.length * 100) + '%';
+            }
+          }, index * stepDelay);
+          simTimers.push(startTimer);
+
+          var doneTimer = setTimeout(function () {
+            var card = document.getElementById('sim-stage-' + index);
+            var msLabel = document.getElementById('sim-stage-ms-' + index);
+            cumulativeMs += stage.ms;
+
+            if (card) {
+              card.classList.remove('is-running');
+              card.classList.add('is-done');
+            }
+            if (msLabel) msLabel.textContent = stage.ms + ' ms';
+            if (simTotalMsEl) simTotalMsEl.textContent = 'elapsed: ' + cumulativeMs + ' ms';
+            if (simProgressFill) {
+              simProgressFill.style.width = ((index + 1) / preset.stages.length * 100) + '%';
+            }
+
+            appendLogLine(cumulativeMs, stage.logTag, stage.logMsg, index === preset.stages.length - 1);
+
+            if (index === preset.stages.length - 1) {
+              if (simProgressFill) simProgressFill.classList.add('is-complete');
+              appendLogLine(cumulativeMs, 'COMPLETE', 'Autonomous pipeline finished cleanly with zero manual intervention.', true);
+              isSimRunning = false;
+              if (simRunBtn) simRunBtn.disabled = false;
+            }
+          }, index * stepDelay + 260);
+          simTimers.push(doneTimer);
+        });
+      }
+
+      simPresetBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          renderSimPreset(btn.getAttribute('data-sim-preset'));
+        });
+      });
+
+      if (simRunBtn) simRunBtn.addEventListener('click', runSimulation);
+      if (simResetBtn) simResetBtn.addEventListener('click', function () { renderSimPreset(currentSimKey); });
+      renderSimPreset('growth');
+
+      /* ----------------------------------------------------------------
+       * 7. Selected Work Filter + HIG Architecture Sheet Modal
+       * ---------------------------------------------------------------- */
+      var PROJECTS = {
+        'growth-experts': {
+          title: 'Growth Experts',
+          badge: 'Agency · Automation · Flagship · Public',
+          problem: 'Growing businesses often run paid social campaigns disconnected from fast, structured lead qualification—causing warm inquiries to go cold before sales teams respond.',
+          design: 'Engineered an automation-first agency platform in Next.js and TypeScript that bridges Facebook & Instagram acquisition funnels directly into AI-assisted lead qualification, scoring, and automated routing workflows.',
+          capabilities: [
+            'High-conversion agency web platform deployed on Vercel',
+            'Automated lead capture and structured qualification pipelines',
+            'Paid Facebook & Instagram acquisition aligned with conversion telemetry',
+            'Modular TypeScript architecture built for repeatable client scaling'
+          ],
+          stack: ['Next.js', 'TypeScript', 'JavaScript', 'AI Workflows'],
+          topic: 'growth',
+          waMessage: 'Hi Aazib, I reviewed the Growth Experts architecture on your portfolio and would like to discuss scaling acquisition and AI lead workflows.',
+          links: [
+            { label: 'Live Website', url: 'https://growthexperts.vercel.app/', primary: true },
+            { label: 'GitHub Repo', url: 'https://github.com/aazib-tariq/growthexperts', primary: false }
+          ]
+        },
+        'agri-track-thrive': {
+          title: 'Agri Track Thrive',
+          badge: 'Applied AI · Public Open Source',
+          problem: 'Agricultural operators frequently juggle fragmented field spreadsheets and reactive irrigation decisions, leading to preventable yield variance and resource waste.',
+          design: 'Architected a TypeScript web interface paired with Python predictive modeling and AI agent routines that unify crop tracking, yield forecasting, and autonomous resource recommendations.',
+          capabilities: [
+            'Structured multi-plot crop tracking and telemetry ingestion',
+            'Predictive yield modeling powered by Python data science pipelines',
+            'AI-driven resource allocation suggestions for operational efficiency',
+            'Open-source repository structured for extensibility'
+          ],
+          stack: ['Python', 'TypeScript', 'AI Agents', 'Data Science'],
+          topic: 'automation',
+          waMessage: 'Hi Aazib, I inspected Agri Track Thrive on your website and would like to discuss building an applied AI platform.',
+          links: [
+            { label: 'GitHub Repo', url: 'https://github.com/aazib-tariq/agri-track-thrive', primary: true }
+          ]
+        },
+        'batteryvolt-ai': {
+          title: 'BatteryVolt AI',
+          badge: 'Applied AI · Private Repository — Case Study',
+          problem: 'Standard threshold-based battery monitoring only reacts after voltage degradation is already impacting reliability, leaving zero window for preventative intervention.',
+          design: 'Built a Python machine learning pipeline specializing in telemetry preprocessing, feature engineering, and predictive voltage horizon forecasting for intelligent hardware diagnostics.',
+          capabilities: [
+            'Automated preprocessing of raw battery voltage telemetry streams',
+            'Predictive horizon modeling to anticipate degradation trends early',
+            'Diagnostic anomaly flags for proactive maintenance planning',
+            'Private repository architecture available for technical walkthrough on request'
+          ],
+          stack: ['Python', 'Machine Learning', 'Predictive Modeling'],
+          topic: 'automation',
+          waMessage: 'Hi Aazib, I checked out the BatteryVolt AI case study on your site and would like to discuss a predictive modeling or ML project.',
+          links: []
+        },
+        'lead-minner': {
+          title: 'Lead Minner',
+          badge: 'Automation · Applied AI · Private Repository — Case Study',
+          problem: 'Manual B2B prospecting consumes hours of repetitive research and produces unverified contact lists that hurt outreach response rates.',
+          design: 'Designed a TypeScript automation and AI pipeline that automates target business discovery, firmographic enrichment, and structured intent qualification for high-signal outreach.',
+          capabilities: [
+            'Automated prospect discovery across structured business sources',
+            'AI-assisted enrichment and ICP qualification filtering',
+            'Clean, structured export pipelines ready for outreach or CRM sync',
+            'Private production codebase available to discuss on request'
+          ],
+          stack: ['TypeScript', 'Automation', 'AI Pipelines'],
+          topic: 'automation',
+          waMessage: 'Hi Aazib, I reviewed the Lead Minner case study on your portfolio and would like to discuss building an automated lead discovery pipeline.',
+          links: []
+        }
+      };
+
+      /* Work Filter Tabs */
+      var workFilterBtns = Array.prototype.slice.call(document.querySelectorAll('[data-work-filter]'));
+      var workCards = Array.prototype.slice.call(document.querySelectorAll('.project-card'));
+      var workCountEl = document.getElementById('work-count');
+
+      function filterWork(category) {
+        var shown = 0;
+        workFilterBtns.forEach(function (btn) {
+          var active = btn.getAttribute('data-work-filter') === category;
+          btn.setAttribute('aria-selected', String(active));
+          btn.setAttribute('tabindex', active ? '0' : '-1');
+        });
+        workCards.forEach(function (card) {
+          var cats = (card.getAttribute('data-categories') || '').split(/\s+/);
+          var match = category === 'all' || cats.indexOf(category) !== -1;
+          card.hidden = !match;
+          if (match) shown += 1;
+        });
+        if (workCountEl) {
+          workCountEl.textContent = shown + ' / ' + workCards.length + (shown === 1 ? ' system' : ' systems');
+        }
+      }
+
+      workFilterBtns.forEach(function (btn, idx) {
+        btn.setAttribute('tabindex', idx === 0 ? '0' : '-1');
+        btn.addEventListener('click', function () {
+          filterWork(btn.getAttribute('data-work-filter'));
+        });
+        btn.addEventListener('keydown', function (e) {
+          var next = null;
+          if (e.key === 'ArrowRight') next = (idx + 1) % workFilterBtns.length;
+          if (e.key === 'ArrowLeft') next = (idx - 1 + workFilterBtns.length) % workFilterBtns.length;
+          if (next !== null) {
+            e.preventDefault();
+            workFilterBtns[next].focus();
+            filterWork(workFilterBtns[next].getAttribute('data-work-filter'));
+          }
+        });
+      });
+
+      /* HIG Sheet Modal Controls */
+      var sheetOverlay = document.getElementById('project-sheet-overlay');
+      var sheetCloseBtn = document.getElementById('sheet-close-btn');
+      var sheetBadge = document.getElementById('sheet-badge');
+      var sheetTitle = document.getElementById('sheet-title');
+      var sheetSchematicSlot = document.getElementById('sheet-schematic-slot');
+      var sheetProblem = document.getElementById('sheet-problem');
+      var sheetDesign = document.getElementById('sheet-design');
+      var sheetCaps = document.getElementById('sheet-capabilities');
+      var sheetStack = document.getElementById('sheet-stack');
+      var sheetLinks = document.getElementById('sheet-links');
+      var sheetDiscussBtn = document.getElementById('sheet-discuss-btn');
+
+      var activeSheetProject = null;
+      var previousSheetFocus = null;
+
+      function openProjectSheet(projectId, triggerEl) {
+        var project = PROJECTS[projectId];
+        if (!project || !sheetOverlay) return;
+
+        activeSheetProject = project;
+        previousSheetFocus = triggerEl || document.activeElement;
+
+        if (sheetBadge) sheetBadge.textContent = project.badge;
+        if (sheetTitle) sheetTitle.textContent = project.title;
+        if (sheetProblem) sheetProblem.textContent = project.problem;
+        if (sheetDesign) sheetDesign.textContent = project.design;
+
+        /* Clone matching SVG schematic from the project card */
+        if (sheetSchematicSlot) {
+          sheetSchematicSlot.innerHTML = '';
+          var sourceCard = document.querySelector('.project-card[data-open-project="' + projectId + '"] .project-schematic-svg');
+          if (sourceCard) {
+            sheetSchematicSlot.appendChild(sourceCard.cloneNode(true));
+          }
+        }
+
+        if (sheetCaps) {
+          sheetCaps.innerHTML = project.capabilities.map(function (cap) {
+            return (
+              '<li class="sheet-cap-item">' +
+                '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" style="margin-top:4px; flex-shrink:0;" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>' +
+                '<span>' + cap + '</span>' +
+              '</li>'
+            );
+          }).join('');
+        }
+
+        if (sheetStack) {
+          sheetStack.innerHTML = project.stack.map(function (t) {
+            return '<span class="tech-pill">' + t + '</span>';
+          }).join('');
+        }
+
+        if (sheetLinks) {
+          sheetLinks.innerHTML = '';
+          if (project.links.length > 0) {
+            project.links.forEach(function (lnk) {
+              var a = document.createElement('a');
+              a.href = lnk.url;
+              a.target = '_blank';
+              a.rel = 'noopener noreferrer';
+              a.className = 'btn btn-secondary btn-sm';
+              a.textContent = lnk.label + ' ↗';
+              sheetLinks.appendChild(a);
+            });
+          } else {
+            var priv = document.createElement('span');
+            priv.className = 'meta-copy mono';
+            priv.textContent = 'Private Repository — Available on Request';
+            sheetLinks.appendChild(priv);
+          }
+        }
+
+        sheetOverlay.classList.add('is-open');
+        sheetOverlay.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        if (sheetCloseBtn) sheetCloseBtn.focus();
+      }
+
+      function closeProjectSheet(restoreFocus) {
+        if (!sheetOverlay || !sheetOverlay.classList.contains('is-open')) return;
+        sheetOverlay.classList.remove('is-open');
+        sheetOverlay.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        if (restoreFocus && previousSheetFocus && typeof previousSheetFocus.focus === 'function') {
+          previousSheetFocus.focus();
+        }
+      }
+
+      /* Prevent external card links from opening the modal */
+      document.querySelectorAll('[data-stop-card]').forEach(function (el) {
+        el.addEventListener('click', function (e) {
+          e.stopPropagation();
+        });
+      });
+
+      document.querySelectorAll('[data-open-project]').forEach(function (el) {
+        el.addEventListener('click', function (e) {
+          e.stopPropagation();
+          openProjectSheet(el.getAttribute('data-open-project'), el);
+        });
+      });
+
+      if (sheetCloseBtn) {
+        sheetCloseBtn.addEventListener('click', function () { closeProjectSheet(true); });
+      }
+      if (sheetOverlay) {
+        sheetOverlay.addEventListener('click', function (e) {
+          if (e.target === sheetOverlay) closeProjectSheet(true);
+        });
+      }
+
+      /* ----------------------------------------------------------------
+       * 8. Verified Entity Graph — Live JSON-LD Inspector & Copy
+       * ---------------------------------------------------------------- */
+      var jsonLdScript = document.getElementById('entity-jsonld');
+      var schemaDrawer = document.getElementById('schema-drawer');
+      var schemaCodeOutput = document.getElementById('schema-code-output');
+      var toggleSchemaBtn = document.getElementById('toggle-schema-btn');
+      var toggleSchemaLabel = document.getElementById('toggle-schema-label');
+      var copySchemaBtn = document.getElementById('copy-schema-btn');
+      var copySchemaLabel = document.getElementById('copy-schema-label');
+      var schemaCopyIcon = document.getElementById('schema-copy-icon');
+      var schemaCheckIcon = document.getElementById('schema-check-icon');
+
+      function getFormattedEntityJson() {
+        if (!jsonLdScript) return '{}';
+        try {
+          return JSON.stringify(JSON.parse(jsonLdScript.textContent), null, 2);
+        } catch (e) {
+          return jsonLdScript.textContent.trim();
+        }
+      }
+
+      if (schemaCodeOutput) {
+        schemaCodeOutput.textContent = getFormattedEntityJson();
+      }
+
+      if (toggleSchemaBtn && schemaDrawer) {
+        toggleSchemaBtn.addEventListener('click', function () {
+          var isHidden = schemaDrawer.hidden;
+          schemaDrawer.hidden = !isHidden;
+          toggleSchemaBtn.setAttribute('aria-expanded', String(isHidden));
+          if (toggleSchemaLabel) {
+            toggleSchemaLabel.textContent = isHidden ? 'Hide JSON-LD Schema' : 'Inspect JSON-LD Schema';
+          }
+        });
+      }
+
+      function copyEntitySchema() {
+        var ok = copyTextSafely(getFormattedEntityJson());
+        if (ok) {
+          showToast('Verified Entity JSON-LD copied');
+          if (copySchemaLabel) copySchemaLabel.textContent = 'Copied';
+          if (schemaCopyIcon) schemaCopyIcon.style.display = 'none';
+          if (schemaCheckIcon) schemaCheckIcon.style.display = 'inline';
+          setTimeout(function () {
+            if (copySchemaLabel) copySchemaLabel.textContent = 'Copy Entity JSON';
+            if (schemaCopyIcon) schemaCopyIcon.style.display = 'inline';
+            if (schemaCheckIcon) schemaCheckIcon.style.display = 'none';
+          }, 2000);
+        }
+      }
+
+      if (copySchemaBtn) {
+        copySchemaBtn.addEventListener('click', copyEntitySchema);
+      }
+
+      /* ----------------------------------------------------------------
+       * 9. Interactive WhatsApp Direct Studio (+92 318 6725593)
+       * ---------------------------------------------------------------- */
+      var WA_TEMPLATES = {
+        automation: "Hi Aazib, I'm interested in building an AI workflow or autonomous automation system. Would love to discuss scope and architecture.",
+        growth: "Hi Aazib, I'd like to discuss scaling our acquisition and automated lead pipelines through Growth Experts.",
+        collab: "Hi Aazib, I came across your engineering work and would like to explore a technical or founder collaboration.",
+        hello: "Hi Aazib, I came across your portfolio and wanted to connect directly."
+      };
+
+      var waTopicBtns = Array.prototype.slice.call(document.querySelectorAll('[data-wa-topic]'));
+      var waTextarea = document.getElementById('wa-textarea');
+      var waCharCount = document.getElementById('wa-char-count');
+      var waHelper = document.getElementById('wa-helper');
+      var waLaunchBtn = document.getElementById('wa-launch-btn');
+      var waCopyMsgBtn = document.getElementById('wa-copy-msg-btn');
+      var waCopyMsgLabel = document.getElementById('wa-copy-msg-label');
+      var waResetBtn = document.getElementById('wa-reset-btn');
+      var copyPhoneBtn = document.getElementById('copy-phone-btn');
+      var copyPhoneLabel = document.getElementById('copy-phone-label');
+      var ventureInquireBtn = document.getElementById('venture-inquire-btn');
+
+      var activeWaTopic = 'automation';
+
+      function syncWaComposer() {
+        if (!waTextarea || !waLaunchBtn) return;
+        var raw = waTextarea.value;
+        var trimmed = raw.trim();
+
+        if (waCharCount) {
+          waCharCount.textContent = raw.length + (raw.length === 1 ? ' char' : ' chars');
+        }
+
+        if (trimmed.length === 0) {
+          waTextarea.setAttribute('aria-invalid', 'true');
+          waLaunchBtn.setAttribute('aria-disabled', 'true');
+          waLaunchBtn.setAttribute('tabindex', '-1');
+          waLaunchBtn.removeAttribute('href');
+          if (waHelper) {
+            waHelper.textContent = 'Please enter a message or choose a topic pill above before opening WhatsApp.';
+            waHelper.classList.add('is-error');
+          }
+        } else {
+          waTextarea.setAttribute('aria-invalid', 'false');
+          waLaunchBtn.removeAttribute('aria-disabled');
+          waLaunchBtn.removeAttribute('tabindex');
+          waLaunchBtn.setAttribute('href', 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(trimmed));
+          if (waHelper) {
+            waHelper.textContent = 'Launches WhatsApp in a new tab with your exact message pre-filled.';
+            waHelper.classList.remove('is-error');
+          }
+        }
+      }
+
+      function selectWaTopic(topicKey, customText) {
+        activeWaTopic = WA_TEMPLATES[topicKey] ? topicKey : 'automation';
+        waTopicBtns.forEach(function (btn) {
+          var selected = btn.getAttribute('data-wa-topic') === activeWaTopic;
+          btn.setAttribute('aria-checked', String(selected));
+          btn.setAttribute('tabindex', selected ? '0' : '-1');
+        });
+        if (waTextarea) {
+          waTextarea.value = typeof customText === 'string' ? customText : WA_TEMPLATES[activeWaTopic];
+          syncWaComposer();
+        }
+      }
+
+      waTopicBtns.forEach(function (btn, idx) {
+        btn.setAttribute('tabindex', idx === 0 ? '0' : '-1');
+        btn.addEventListener('click', function () {
+          selectWaTopic(btn.getAttribute('data-wa-topic'));
+        });
+        btn.addEventListener('keydown', function (e) {
+          var next = null;
+          if (e.key === 'ArrowRight' || e.key === 'ArrowDown') next = (idx + 1) % waTopicBtns.length;
+          if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') next = (idx - 1 + waTopicBtns.length) % waTopicBtns.length;
+          if (next !== null) {
+            e.preventDefault();
+            waTopicBtns[next].focus();
+            selectWaTopic(waTopicBtns[next].getAttribute('data-wa-topic'));
+          }
+        });
+      });
+
+      if (waTextarea) waTextarea.addEventListener('input', syncWaComposer);
+
+      if (waLaunchBtn) {
+        waLaunchBtn.addEventListener('click', function (e) {
+          if (waLaunchBtn.getAttribute('aria-disabled') === 'true') {
+            e.preventDefault();
+            if (waTextarea) waTextarea.focus();
+          }
+        });
+      }
+
+      if (waResetBtn) {
+        waResetBtn.addEventListener('click', function () {
+          selectWaTopic(activeWaTopic);
+          if (waTextarea) waTextarea.focus();
+        });
+      }
+
+      if (waCopyMsgBtn) {
+        waCopyMsgBtn.addEventListener('click', function () {
+          if (!waTextarea || !waTextarea.value.trim()) return;
+          if (copyTextSafely(waTextarea.value.trim())) {
+            showToast('WhatsApp message copied');
+            if (waCopyMsgLabel) waCopyMsgLabel.textContent = 'Copied';
+            setTimeout(function () {
+              if (waCopyMsgLabel) waCopyMsgLabel.textContent = 'Copy Message';
+            }, 1800);
+          }
+        });
+      }
+
+      if (copyPhoneBtn) {
+        copyPhoneBtn.addEventListener('click', function () {
+          if (copyTextSafely(WA_FORMATTED)) {
+            showToast('Copied ' + WA_FORMATTED);
+            if (copyPhoneLabel) copyPhoneLabel.textContent = 'Copied';
+            setTimeout(function () {
+              if (copyPhoneLabel) copyPhoneLabel.textContent = 'Copy';
+            }, 1800);
+          }
+        });
+      }
+
+      function jumpToWhatsAppStudio(topic, message) {
+        selectWaTopic(topic, message);
+        var contactEl = document.getElementById('contact');
+        if (contactEl && typeof contactEl.scrollIntoView === 'function') {
+          contactEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        setTimeout(function () {
+          if (waTextarea) waTextarea.focus();
+        }, 320);
+      }
+
+      if (sheetDiscussBtn) {
+        sheetDiscussBtn.addEventListener('click', function () {
+          if (!activeSheetProject) return;
+          var topic = activeSheetProject.topic;
+          var msg = activeSheetProject.waMessage;
+          closeProjectSheet(false);
+          jumpToWhatsAppStudio(topic, msg);
+        });
+      }
+
+      if (ventureInquireBtn) {
+        ventureInquireBtn.addEventListener('click', function () {
+          jumpToWhatsAppStudio('growth', WA_TEMPLATES.growth);
+        });
+      }
+
+      selectWaTopic('automation');
+
+      /* ----------------------------------------------------------------
+       * 10. Spotlight / Raycast Command Palette (⌘K / Ctrl+K)
+       * ---------------------------------------------------------------- */
+      var cmdOverlay = document.getElementById('cmd-overlay');
+      var cmdInput = document.getElementById('cmd-input');
+      var cmdResults = document.getElementById('cmd-results');
+      var openCmdBtn = document.getElementById('open-cmd-btn');
+      var heroCmdHint = document.getElementById('hero-cmd-hint');
+      var footerCmdBtn = document.getElementById('footer-cmd-btn');
+
+      var COMMANDS = [
+        /* Navigation */
+        { group: 'Navigate', title: 'Selected Work', sub: 'Engineered products & systems', keywords: 'projects portfolio work', action: function () { scrollToSection('#work'); } },
+        { group: 'Navigate', title: 'Autonomous Workflow Simulator', sub: 'Interactive architecture demo', keywords: 'systems simulator pipeline demo', action: function () { scrollToSection('#systems'); } },
+        { group: 'Navigate', title: 'Growth Experts Venture', sub: 'Flagship agency overview', keywords: 'agency founder ads conversion', action: function () { scrollToSection('#venture'); } },
+        { group: 'Navigate', title: 'Verified Entity Graph', sub: 'Schema.org & sameAs links', keywords: 'seo jsonld entity schema google ai', action: function () { scrollToSection('#entity'); } },
+        { group: 'Navigate', title: 'WhatsApp Direct Studio', sub: 'Pre-filled message composer', keywords: 'contact message phone whatsapp', action: function () { scrollToSection('#contact'); } },
+
+        /* Project Architecture Sheets */
+        { group: 'Architecture Sheets', title: 'Inspect: Growth Experts', sub: 'Flagship · Next.js & AI Workflows', keywords: 'growth experts project sheet', action: function () { openProjectSheet('growth-experts'); } },
+        { group: 'Architecture Sheets', title: 'Inspect: Agri Track Thrive', sub: 'Applied AI · Python & TypeScript', keywords: 'agri track thrive farm yield', action: function () { openProjectSheet('agri-track-thrive'); } },
+        { group: 'Architecture Sheets', title: 'Inspect: BatteryVolt AI', sub: 'Case Study · Predictive Modeling', keywords: 'batteryvolt voltage ml python', action: function () { openProjectSheet('batteryvolt-ai'); } },
+        { group: 'Architecture Sheets', title: 'Inspect: Lead Minner', sub: 'Case Study · B2B Lead Engine', keywords: 'lead minner automation prospecting', action: function () { openProjectSheet('lead-minner'); } },
+
+        /* Quick Actions & External Links */
+        { group: 'Actions & Links', title: 'Launch WhatsApp Chat', sub: '+92 318 6725593', keywords: 'whatsapp chat message call', action: function () { window.open('https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(WA_TEMPLATES.hello), '_blank', 'noopener,noreferrer'); } },
+        { group: 'Actions & Links', title: 'Visit Growth Experts Website', sub: 'growthexperts.vercel.app', keywords: 'company website vercel growth experts', action: function () { window.open(GROWTH_EXPERTS_URL, '_blank', 'noopener,noreferrer'); } },
+        { group: 'Actions & Links', title: 'Open GitHub Profile', sub: 'github.com/aazib-tariq', keywords: 'github code repositories', action: function () { window.open('https://github.com/aazib-tariq', '_blank', 'noopener,noreferrer'); } },
+        { group: 'Actions & Links', title: 'Open LinkedIn Profile', sub: 'linkedin.com/in/aazibtariq/', keywords: 'linkedin profile network', action: function () { window.open('https://www.linkedin.com/in/aazibtariq/', '_blank', 'noopener,noreferrer'); } },
+        { group: 'Actions & Links', title: 'Copy Verified Entity JSON-LD', sub: 'Schema.org @graph payload', keywords: 'copy schema json entity seo', action: function () { copyEntitySchema(); } },
+        { group: 'Actions & Links', title: 'Copy Direct Portfolio URL', sub: 'https://aazib-tariq.github.io/', keywords: 'copy link url share portfolio', action: function () { if (copyTextSafely(PORTFOLIO_URL)) showToast('Portfolio URL copied'); } },
+        { group: 'Actions & Links', title: 'Toggle Light / Dark Appearance', sub: 'Switch Obsidian & Light themes', keywords: 'theme dark light mode appearance', action: function () { toggleTheme(); } }
+      ];
+
+      var filteredCommands = COMMANDS.slice();
+      var selectedCmdIndex = 0;
+      var previousCmdFocus = null;
+
+      function scrollToSection(selector) {
+        var el = document.querySelector(selector);
+        if (el && typeof el.scrollIntoView === 'function') {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+
+      function renderCommands(query) {
+        if (!cmdResults) return;
+        var q = (query || '').trim().toLowerCase();
+
+        filteredCommands = COMMANDS.filter(function (cmd) {
+          if (!q) return true;
+          var haystack = (cmd.title + ' ' + cmd.sub + ' ' + cmd.keywords + ' ' + cmd.group).toLowerCase();
+          return haystack.indexOf(q) !== -1;
+        });
+
+        selectedCmdIndex = 0;
+        cmdResults.innerHTML = '';
+
+        if (filteredCommands.length === 0) {
+          var empty = document.createElement('li');
+          empty.className = 'cmd-empty';
+          empty.textContent = 'No matching commands found for "' + query + '".';
+          cmdResults.appendChild(empty);
+          return;
+        }
+
+        var lastGroup = null;
+        filteredCommands.forEach(function (cmd, index) {
+          if (cmd.group !== lastGroup) {
+            lastGroup = cmd.group;
+            var groupLi = document.createElement('li');
+            groupLi.className = 'cmd-group-label';
+            groupLi.textContent = cmd.group;
+            cmdResults.appendChild(groupLi);
+          }
+
+          var li = document.createElement('li');
+          li.setAttribute('role', 'presentation');
+
+          var btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'cmd-item';
+          btn.setAttribute('role', 'option');
+          btn.setAttribute('aria-selected', String(index === selectedCmdIndex));
+          btn.setAttribute('data-cmd-idx', String(index));
+
+          btn.innerHTML =
+            '<span class="cmd-item-left">' +
+              '<span class="cmd-item-title">' + cmd.title + '</span>' +
+              '<span class="cmd-item-sub">' + cmd.sub + '</span>' +
+            '</span>' +
+            '<span class="kbd">↵</span>';
+
+          btn.addEventListener('mouseenter', function () {
+            updateCmdSelection(index);
+          });
+          btn.addEventListener('click', function () {
+            executeCommand(index);
+          });
+
+          li.appendChild(btn);
+          cmdResults.appendChild(li);
+        });
+      }
+
+      function updateCmdSelection(newIndex) {
+        if (filteredCommands.length === 0) return;
+        selectedCmdIndex = (newIndex + filteredCommands.length) % filteredCommands.length;
+        var items = cmdResults.querySelectorAll('.cmd-item');
+        items.forEach(function (item) {
+          var idx = parseInt(item.getAttribute('data-cmd-idx'), 10);
+          var active = idx === selectedCmdIndex;
+          item.setAttribute('aria-selected', String(active));
+          if (active && typeof item.scrollIntoView === 'function') {
+            item.scrollIntoView({ block: 'nearest' });
+          }
+        });
+      }
+
+      function executeCommand(index) {
+        var cmd = filteredCommands[index];
+        if (!cmd) return;
+        closeCommandPalette(false);
+        cmd.action();
+      }
+
+      function openCommandPalette() {
+        if (!cmdOverlay) return;
+        if (sheetOverlay && sheetOverlay.classList.contains('is-open')) {
+          closeProjectSheet(false);
+        }
+        previousCmdFocus = document.activeElement;
+        cmdOverlay.classList.add('is-open');
+        cmdOverlay.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        if (cmdInput) {
+          cmdInput.value = '';
+          renderCommands('');
+          cmdInput.focus();
+        }
+      }
+
+      function closeCommandPalette(restoreFocus) {
+        if (!cmdOverlay || !cmdOverlay.classList.contains('is-open')) return;
+        cmdOverlay.classList.remove('is-open');
+        cmdOverlay.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        if (restoreFocus && previousCmdFocus && typeof previousCmdFocus.focus === 'function') {
+          previousCmdFocus.focus();
+        }
+      }
+
+      if (openCmdBtn) openCmdBtn.addEventListener('click', openCommandPalette);
+      if (heroCmdHint) heroCmdHint.addEventListener('click', openCommandPalette);
+      if (footerCmdBtn) footerCmdBtn.addEventListener('click', openCommandPalette);
+
+      if (cmdOverlay) {
+        cmdOverlay.addEventListener('click', function (e) {
+          if (e.target === cmdOverlay) closeCommandPalette(true);
+        });
+      }
+
+      if (cmdInput) {
+        cmdInput.addEventListener('input', function () {
+          renderCommands(cmdInput.value);
+        });
+      }
+
+      /* Global Keyboard Shortcuts: ⌘K / Ctrl+K, Escape, Focus Trap */
+      document.addEventListener('keydown', function (e) {
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+          e.preventDefault();
+          if (cmdOverlay && cmdOverlay.classList.contains('is-open')) {
+            closeCommandPalette(true);
+          } else {
+            openCommandPalette();
+          }
+          return;
+        }
+
+        /* Command Palette keyboard navigation */
+        if (cmdOverlay && cmdOverlay.classList.contains('is-open')) {
+          if (e.key === 'Escape') {
+            e.preventDefault();
+            closeCommandPalette(true);
+          } else if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            updateCmdSelection(selectedCmdIndex + 1);
+          } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            updateCmdSelection(selectedCmdIndex - 1);
+          } else if (e.key === 'Enter') {
+            e.preventDefault();
+            executeCommand(selectedCmdIndex);
+          }
+          return;
+        }
+
+        /* Architecture Sheet modal keyboard navigation & focus trap */
+        if (sheetOverlay && sheetOverlay.classList.contains('is-open')) {
+          if (e.key === 'Escape') {
+            e.preventDefault();
+            closeProjectSheet(true);
+            return;
+          }
+          if (e.key === 'Tab') {
+            var focusables = sheetOverlay.querySelectorAll('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])');
+            if (focusables.length === 0) return;
+            var first = focusables[0];
+            var last = focusables[focusables.length - 1];
+            if (e.shiftKey && document.activeElement === first) {
+              e.preventDefault();
+              last.focus();
+            } else if (!e.shiftKey && document.activeElement === last) {
+              e.preventDefault();
+              first.focus();
+            }
+          }
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
