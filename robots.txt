@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aazib-tariq.github.io/sitemap.xml
